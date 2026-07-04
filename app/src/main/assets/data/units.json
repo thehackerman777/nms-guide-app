@@ -1,0 +1,220 @@
+{
+  "categoryId": "units",
+  "articles": [
+    {
+      "id": "units_early_game",
+      "title": "FASE 1: Early Game (Principios)",
+      "summary": "Cómo empezar con poco dinero y convertirte en millonario desde las primeras horas de juego.",
+      "order": 1,
+      "methods": [
+        {
+          "title": "Mejoras de Escáner (Análisis Planetario)",
+          "difficulty": "easy",
+          "type": "active",
+          "speed": "fast",
+          "tags": ["early", "escáner", "exploración", "fácil"],
+          "steps": [
+            "Paso 1: Consigue nanites (ver guía de Nanites) y compra módulos de mejora S-Class para el Visor de Análisis (Analysis Visor) en la estación espacial.",
+            "Paso 2: Instala 3 módulos S-Class de escáner en el multitool.",
+            "Paso 3: Cada módulo S-Class multiplica las recompensas por escanear fauna y flora entre 5,000x y 10,000x.",
+            "Paso 4: Escanea TODA fauna y flora que veas. Una criatura rara puede dar hasta 200,000-400,000 unidades.",
+            "Paso 5: Escanea plantas: cada una da ~30,000-50,000 unidades con 3 módulos S.",
+            "Paso 6: Un planeta completo (flora + fauna) puede darte MILLONES de unidades en cuestión de minutos."
+          ],
+          "tips": [
+            "Invertir 1,000 nanites en módulos S de escáner se paga en 10 minutos.",
+            "En el Nexo (Anomalía), puedes comprar módulos S de escáner del vendedor de tecnología de exotraje.",
+            "Prioriza esto ANTES que mejorar tu nave o multitool de combate.",
+            "Las criaturas voladoras y acuáticas suelen dar más unidades al escanearlas."
+          ]
+        },
+        {
+          "title": "Huesos Antiguos y Reliquias",
+          "difficulty": "easy",
+          "type": "active",
+          "speed": "medium",
+          "tags": ["early", "huesos", "fósiles", "excavación"],
+          "steps": [
+            "Paso 1: Busca planetas que tengan 'Huesos Antiguos' (Ancient Bones) o 'Restos de Naufragio' (Salvageable Scrap).",
+            "Paso 2: Al escanear el planeta desde el espacio, verás si tiene estos recursos en la descripción.",
+            "Paso 3: Aterriza y usa el Visor de Análisis para localizar los objetos enterrados.",
+            "Paso 4: Excava con el Multitool en modo Terreno (Terrain Manipulator).",
+            "Paso 5: Recoge los huesos o restos. Se clasifican como C, B, A o S según rareza.",
+            "Paso 6: Los huesos comunes (C) valen ~20,000-50,000. Los raros (S) pueden valer hasta 1-2 millones.",
+            "Paso 7: Vende todo en la estación espacial en el terminal de comercio."
+          ],
+          "tips": [
+            "Los planetas con huesos son más comunes en sistemas prósperos o de alto suministro.",
+            "Prioriza planetas con 'Restos de Naufragio' (Salvageable Scrap): son más valiosos que los huesos.",
+            "Usa el Exocraft con radar para localizar objetos enterrados más rápido.",
+            "Lleva combustible para el Terrain Manipulator. No te quedes sin él en medio de la excavación.",
+            "Esto es excelente para las primeras 2-3 horas de juego."
+          ]
+        },
+        {
+          "title": "Cloro + Oxígeno (El Cloro Infinito)",
+          "difficulty": "easy",
+          "type": "active",
+          "speed": "fast",
+          "tags": ["early", "cloro", "refinado", "químico"],
+          "steps": [
+            "Paso 1: Consigue Cloro (Chlorine) — se encuentra en plantas acuáticas, en planetas oceánicos, o se compra barato en terminales.",
+            "Paso 2: Consigue Oxígeno (Oxygen) — se refina de plantas, se compra o se extrae con extractor de gas.",
+            "Paso 3: Consigue un refinador mediano (Medium Refiner). Se fabrica con 100 polvo de metal + 5 cristales de carbono.",
+            "Paso 4: Pon Cloro + Oxígeno en el refinador. La receta: 1 Cloro + 2 Oxígeno → 6 Cloro.",
+            "Paso 5: Esto significa que por cada unidad de Cloro, obtienes 6. Es una multiplicación x6.",
+            "Paso 6: Refina en lotes de 250 Cloro + 500 Oxígeno → 1500 Cloro.",
+            "Paso 7: Vende el Cloro extra en el terminal de comercio. El Cloro se vende a ~402 unidades cada uno.",
+            "Paso 8: Repite. Con 250 Cloro inicial, en 3-4 ciclos puedes tener millones."
+          ],
+          "tips": [
+            "Compra Oxígeno en las estaciones: los pilotos suelen vender grandes cantidades.",
+            "Refina en refinadores grandes (Large Refiner) para procesar más rápido.",
+            "El Cloro es 'comerciable' con demanda variable: busca sistemas con demanda alta (+10-20%).",
+            "Si encuentras un sistema que vende Oxígeno barato, múdate allí para tu granja de Cloro.",
+            "Este método es legal en todos los sistemas (no es contrabando)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "units_mid_game",
+      "title": "FASE 2: Mid Game (Estrategias Intermedias)",
+      "summary": "Cuando ya tienes unos millones, usa estas estrategias para escalar a cientos de millones.",
+      "order": 2,
+      "methods": [
+        {
+          "title": "Rutas Comerciales (Economía Galáctica)",
+          "difficulty": "easy",
+          "type": "active",
+          "speed": "fast",
+          "tags": ["mid", "comercio", "economía", "rutas"],
+          "steps": [
+            "Paso 1: Instala el mejorado 'Economy Scanner' en tu nave. Te permite ver el tipo económico de cada sistema.",
+            "Paso 2: Aprende los 7 tipos económicos: Minería, Manufactura, Tecnología, Energía, Comercial, Ciencia, Materiales.",
+            "Paso 3: Cada sistema vende 2 productos específicos (Export) y tiene demanda de otros 2 (Import).",
+            "Paso 4: Compra barato en sistemas que producen un recurso y véndelo caro en sistemas que lo necesitan.",
+            "Paso 5: Ejemplo: Sistemas de Minería (producen minerales baratos, demandan tecnología). Sistemas de Tecnología (producen tecnología barata, demandan minerales).",
+            "Paso 6: Compra Tecnología Avanzada en sistemas de Tecnología (barato ~20k) y véndela en sistemas Mineros (caro ~60k+).",
+            "Paso 7: Busca sistemas con demanda alta (+80%) del producto que vendes para maximizar ganancias.",
+            "Paso 8: Con un inventario grande de nave Hauler, puedes ganar 50-100 millones por ruta completa."
+          ],
+          "tips": [
+            "Usa la app Assistant for NMS para consultar la tabla de economía completa.",
+            "Los sistemas de 3 estrellas (prósperos) tienen los mejores precios de compra y venta.",
+            "El contrabando (ver más abajo) es más rentable pero ilegal.",
+            "La ruta minería → manufactura es una de las más rentables y seguras.",
+            "Lleva tu carguero cerca y usa los contenedores para almacenar productos."
+          ]
+        },
+        {
+          "title": "Contrabando en Sistemas Piratas (Outlaw)",
+          "difficulty": "medium",
+          "type": "active",
+          "speed": "fast",
+          "tags": ["mid", "contrabando", "pirata", "outlaw"],
+          "steps": [
+            "Paso 1: Encuentra un sistema pirata (outlaw) en el mapa galáctico (icono calavera).",
+            "Paso 2: Ve a la estación pirata. En el terminal de comercio, busca productos de contrabando: Hadarcore, Liquido Explosivo, etc.",
+            "Paso 3: Compra todo el contrabando disponible. Es barato en sistemas piratas.",
+            "Paso 4: Sal del sistema. Los centinelas te escanearán al salir.",
+            "Paso 5: Para EVITAR la detección, puedes: esconder el contrabando en los contenedores de tu carguero.",
+            "Paso 6: También puedes instalar el 'Exploit Shield' (Escudo Anti-exploit) en tu nave para evitar escaneos.",
+            "Paso 7: Vende el contrabando en sistemas normales. Los precios de venta son 3x-5x más altos.",
+            "Paso 8: Un Hadarcore comprado a ~600k se vende a ~2-3 millones en sistemas prósperos."
+          ],
+          "tips": [
+            "Puedes tener hasta 100 slots de contrabando oculto en tu carguero (los centros de mando).",
+            "Si te detectan, luchas contra 3 oleadas de centinelas. Si pierdes, confiscan el contrabando.",
+            "La forma más segura: compra contrabando → teletransporta a tu base → usa el teleport a un sistema normal.",
+            "Los contrabandos más rentables: Hadarcore, Neural Duct, Liquido Explosivo.",
+            "Combina con misiones de contrabando del Nexo para doble beneficio."
+          ]
+        },
+        {
+          "title": "Economía de Demanda Local (Bienes de Consumo)",
+          "difficulty": "easy",
+          "type": "active",
+          "speed": "medium",
+          "tags": ["mid", "demanda", "comercio", "viaje"],
+          "steps": [
+            "Paso 1: En cada estación, revisa la pantalla de comercio para ver qué productos tienen la demanda más alta (+80% es excelente).",
+            "Paso 2: Compra los productos con oferta alta (bajo precio) en el sistema actual.",
+            "Paso 3: Busca en tu mapa de economía un sistema que tenga demanda de esos productos.",
+            "Paso 4: Salta al sistema de demanda y vende todo.",
+            "Paso 5: Mientras estás en ese sistema, revisa qué tienen ellos barato que otro sistema necesite.",
+            "Paso 6: Crea una ruta de 3-4 sistemas en cadena para maximizar eficiencia."
+          ],
+          "tips": [
+            "La 'rueda' económica clásica: Minería → Manufactura → Tecnología → Ciencia → Comercial → Minería.",
+            "Los mejores márgenes están en sistemas de 3 estrellas (ricos).",
+            "Usa el filtro de mapa galáctico por tipo económico para planificar rutas.",
+            "Las naves Hauler con mucho inventario son ideales para comercio."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "units_end_game",
+      "title": "FASE 3: End Game (Megagranjas)",
+      "summary": "Cuando ya no sabes qué hacer con el dinero. Granjas automáticas que producen cientos de millones por ciclo.",
+      "order": 3,
+      "methods": [
+        {
+          "title": "Granfa de Indio Activado (Activated Indium)",
+          "difficulty": "hard",
+          "type": "passive",
+          "speed": "slow",
+          "tags": ["end", "indio", "minería", "granfa", "pasivo"],
+          "steps": [
+            "Paso 1: Busca un planeta con tormentas extremas que tenga Indio Activado como recurso.",
+            "Paso 2: Usa el visor de análisis desde tu nave para encontrar un depósito de clase S o A de Indio Activado.",
+            "Paso 3: Construye una base cerca del depósito.",
+            "Paso 4: Coloca múltiples Extractores de Mineral (Mineral Extractor) sobre el depósito. Puedes poner 5-10 por depósito.",
+            "Paso 5: Conecta los extractores con tuberías (Supply Pipes) a Depósitos de Almacenamiento (Supply Depots).",
+            "Paso 6: Alimenta los extractores con energía eléctrica. Necesitarás generadores electromagnéticos o solares.",
+            "Paso 7: Los extractores extraerán Indio Activado continuamente. 10 extractores producen ~50,000-100,000 unidades cada 24h.",
+            "Paso 8: El Indio Activado se vende a ~950 unidades cada uno. 100,000 unidades = ~95 millones.",
+            "Paso 9: Vende en una estación. Con una granja bien construida, ganas ~100 millones por día sin hacer nada."
+          ],
+          "tips": [
+            "Construye los extractores y los depósitos de almacenamiento. Vuelve cada 24h a recoger.",
+            "Necesitas energía. Si no hay fuente electromagnética cerca, los paneles solares con baterías son otra opción.",
+            "NO pongas más de 10 extractores cerca de un mismo depósito o el rendimiento decae.",
+            "Puedes encontrar múltiples depósitos cerca y conectarlos todos a la misma red.",
+            "Con 3 depósitos clase A y 30 extractores, produces ~300 millones cada 24h.",
+            "Desde la actualización Waypoint, el precio base bajó, pero sigue siendo la granja pasiva reina."
+          ]
+        },
+        {
+          "title": "Stasis Device / Fusion Ignitor (Objetos de Valor Extremo)",
+          "difficulty": "hard",
+          "type": "active",
+          "speed": "medium",
+          "tags": ["end", "stasis", "fusión", "artesanal", "complejo"],
+          "steps": [
+            "Paso 1: Consigue los planos de Stasis Device y Fusion Ignitor. Se obtienen completando misiones de fabricación en la Anomalía y la Estación.",
+            "Paso 2: Necesitarás una base con cultivos de todas las plantas: Solanio, Faecium, Fungussía, Gamma Weed, Frostwort, Star Bulb.",
+            "Paso 3: Construye gas extractors para: Sulphurine, Nitrogen, Radon. Necesitas los 3 gases atmosféricos.",
+            "Paso 4: Construye mineral extractors para: Dioxite, Phosphorus, Uranium, Parafinnium.",
+            "Paso 5: Refina y combina los materiales siguiendo la cadena de fabricación:",
+            "   - Plantas + Gases → Componentes base (Thermic Condensate, Enriched Carbon, etc.)",
+            "   - Componentes base + Minerales → Componentes avanzados (Hot Ice, Cryo-Pump, etc.)",
+            "   - Componentes avanzados → Stasis Device o Fusion Ignitor",
+            "Paso 6: Cada Stasis Device se vende por ~15.6 millones de unidades.",
+            "Paso 7: Cada Fusion Ignitor se vende por ~15.6 millones de unidades.",
+            "Paso 8: Con una cadena de producción completa, puedes fabricar 10-20 por día sin contar ciclos de refinado."
+          ],
+          "tips": [
+            "Hay guías visuales y calculadoras de Stasis Device en Assistant for NMS.",
+            "Empieza con Fusion Ignitor o Stasis Device, no los dos. Son cadenas similares pero distintas.",
+            "La parte más tediosa es conseguir todos los planos. Ve al Nexo y compra los planos de fabricación.",
+            "Un inventario lleno de Stasis Devices (40 slots) vale ~624 millones.",
+            "Es el método más complejo, pero produce la mayor cantidad de unidades por slot.",
+            "Esta granja combinada con una de gas/mineral automatizada produce ingresos pasivos extremos."
+          ]
+        }
+      ]
+    }
+  ]
+}

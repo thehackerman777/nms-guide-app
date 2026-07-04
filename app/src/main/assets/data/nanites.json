@@ -1,0 +1,249 @@
+{
+  "categoryId": "nanites",
+  "articles": [
+    {
+      "id": "nanites_mould",
+      "title": "Método #1: Moho Desenfrenado (Runaway Mould)",
+      "summary": "El método más famoso y eficiente. Encuentra depósitos curiosos de moho, refínalos y obtén nanites en grandes cantidades.",
+      "order": 1,
+      "methods": [
+        {
+          "title": "Granja de Moho Desenfrenado",
+          "difficulty": "easy",
+          "type": "passive",
+          "speed": "fast",
+          "tags": ["moho", "curious deposit", "refinado", "granja"],
+          "steps": [
+            "Paso 1: Busca planetas con 'Cable Pods', 'Ossified Stars', 'Plutonic Soil' o 'Fungal Mould' como recurso. El moho suele aparecer en planetas bioluminiscentes o con burbujas.",
+            "Paso 2: Vuela bajo sobre la superficie. Busca depósitos que en el escáner aparezcan como 'Curious Deposit' con forma de colinas redondeadas y brillo morado/verde.",
+            "Paso 3: Aterriza cerca del depósito. Al minarlo dará 'Runaway Mould' (Moho Desenfrenado) en forma de bolas verdes que ruedan.",
+            "Paso 4: Recoge todo el moho. Cada depósito da entre 200 y 800 unidades.",
+            "Paso 5: Refina el moho en un refinador mediano o grande. La receta: Runaway Mould → Nanite Clusters.",
+            "Paso 6: La tasa de conversión es aproximadamente 5:1 (5 moho = 1 nanite). Un depósito grande te da ~80-160 nanites.",
+            "Paso 7: Marca la ubicación con un marcador. Los depósitos curiosos REGENERAN cuando vuelves después de recargar el área (~48 horas de juego o salir/entrar).",
+            "Paso 8: Construye una base con refinadores cerca del depósito. Así puedes minar y refinar in situ."
+          ],
+          "tips": [
+            "El MEGA TRUCO: coloca 4 refinadores grandes en tu base de moho. Refina todo en lotes mientras haces otras cosas.",
+            "Los depósitos curiosos reaparecen si te alejas suficiente distancia (>600u) y vuelves, o al recargar la partida.",
+            "Si construyes una base justo sobre 2-3 depósitos, puedes farmear 2000+ moho cada visita = 400+ nanites.",
+            "No dejes materiales en refinadores al cerrar el juego: se pierden con algunos bugs.",
+            "Los planetas con burbujas flotantes (Marrow Bulb planet) suelen tener muchos depósitos curiosos."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nanites_scrap_ships",
+      "title": "Método #2: Desguazar Naves en Estaciones",
+      "summary": "Compra naves económicas en estaciones espaciales, desguázalas y vende los módulos de mejora por nanites.",
+      "order": 2,
+      "methods": [
+        {
+          "title": "Desguace de Naves en la Estación",
+          "difficulty": "easy",
+          "type": "active",
+          "speed": "fast",
+          "tags": ["desguace", "naves", "scrap", "rápido"],
+          "steps": [
+            "Paso 1: Ve a una estación espacial en un sistema económico próspero (★ Tier 3).",
+            "Paso 2: Espera a que aterricen naves clase A o S en la estación. Las naves pequeñas tipo Shuttle son las más baratas.",
+            "Paso 3: Compra naves A o S de bajo costo (Shuttles o Explorers de 2-5 millones).",
+            "Paso 4: Ve al terminal de Desguace de Naves (Scrap Dealer) en la estación, al lado del cartógrafo.",
+            "Paso 5: Desguaza la nave que acabas de comprar. Recibirás: partes de nave (para vender), módulos de mejora (S o A), y materiales.",
+            "Paso 6: Vende los módulos de mejora S/A en cualquier vendedor de tecnología del sistema por nanites.",
+            "Paso 7: Vende las partes de nave en el terminal de comercio para recuperar parte de la inversión en unidades.",
+            "Paso 8: Repite. Con una nave S de ~4M, puedes obtener entre 300-800 nanites por los módulos."
+          ],
+          "tips": [
+            "El beneficio neto en unidades suele ser mínimo o nulo. Estás convirtiendo unidades en nanites.",
+            "Las naves de tipo Solar (Outlaw systems) son baratas y dan buenos módulos.",
+            "En sistemas piratas (Outlaw), las naves tienen más probabilidad de ser S-class (~5% vs 2% de sistemas normales).",
+            "Guarda los módulos S si son de tecnología que necesitas. Los que no, véndelos.",
+            "Si tienes poco dinero, empieza con naves C o B clase por ~500k."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nanites_nexus_missions",
+      "title": "Método #3: Misiones del Nexo y Gremios",
+      "summary": "Misiones diarias y semanales en el Nexo (Anomalía) y misiones de gremio que recompensan con nanites.",
+      "order": 3,
+      "methods": [
+        {
+          "title": "Misiones del Nexo",
+          "difficulty": "easy",
+          "type": "active",
+          "speed": "medium",
+          "tags": ["nexo", "anomalía", "misiones", "gremios"],
+          "steps": [
+            "Paso 1: Ve a la Anomalía (Nexo) pulsando X en el espacio y seleccionando Anomalía.",
+            "Paso 2: Ve al terminal de misiones del Nexo (detrás de nada, en el centro del Nexo).",
+            "Paso 3: Selecciona misiones que NO sean de fiestas (las individuales son más eficientes).",
+            "Paso 4: Prioriza misiones que den: Paquetes de Nanites, Paquetes de Unidades, o Tecnología.",
+            "Paso 5: Completa la misión. Al entregarla, recibirás nanites directamente o en paquetes.",
+            "Paso 6: Las misiones pequeñas dan ~80-150 nanites. Las de cazar bestias o piratas pueden dar hasta 300.",
+            "Paso 7: Además, en el Nexo puedes donar objetos al gremio (Guild) en el Envoy (NPC detrás del mostrador).",
+            "Paso 8: Al donar objetos raros (Dirty Bronze, Hermetic Seal, etc.), tu rango de gremio sube y te recompensan con nanites y objetos de valor."
+          ],
+          "tips": [
+            "Las misiones de piratería o combate suelen dar más nanites que las de recolección.",
+            "Si juegas con otros jugadores, las misiones de grupo dan bonus de nanites por completar.",
+            "Aumenta tu rango en los 3 gremios: Mercaderes, Exploradores y Combatientes. Cada rango da mejores recompensas.",
+            "Las misiones semanales del Quicksilver también dan nanites adicionales.",
+            "Stackea varias misiones similares (ej: mata 8 centinelas) y complétalas al mismo tiempo."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nanites_helios_cronos",
+      "title": "Método #4: Helios y Cronos (Anomalía)",
+      "summary": "Dos NPCs en la Anomalía que te dan nanites gratis cada día por datos de exploración y recetas de cocina.",
+      "order": 4,
+      "methods": [
+        {
+          "title": "Helios - Datos de Exploración",
+          "difficulty": "easy",
+          "type": "passive",
+          "speed": "fast",
+          "tags": ["helios", "anomalía", "pasivo", "diario"],
+          "steps": [
+            "Paso 1: Ve a la Anomalía.",
+            "Paso 2: Busca a Helios (el NPC de aspecto robótico, normalmente en la sección izquierda, cerca de la entrada a las salas de atrás).",
+            "Paso 3: Cada día, Helios te ofrecerá nanites a cambio de tus 'Datos de Exploración'. Es la opción que dice algo como 'Aportar datos de exploración'.",
+            "Paso 4: Recibirás entre 200 y 600 nanites dependiendo de cuántos sistemas hayas descubierto desde la última vez.",
+            "Paso 5: Puedes hacer esto UNA VEZ POR DÍA (resetea en el reinicio diario del servidor).",
+            "Paso 6: No cuesta nada, solo datos que ya tienes por explorar."
+          ],
+          "tips": [
+            "Si exploras varios sistemas nuevos cada sesión, Helios te dará más nanites.",
+            "Es completamente gratis y solo toma 30 segundos. Hazlo siempre que visites la Anomalía.",
+            "No hay penalización por no hacerlo un día. Los datos se acumulan."
+          ]
+        },
+        {
+          "title": "Cronos - Cocina Molecular",
+          "difficulty": "easy",
+          "type": "passive",
+          "speed": "fast",
+          "tags": ["cronos", "cocina", "anomalía", "diario"],
+          "steps": [
+            "Paso 1: Ve a la Anomalía.",
+            "Paso 2: Busca a Cronos (NPC con aspecto de chef, en la sección de la cocina, cerca de la entrada a salas de expediciones).",
+            "Paso 3: Cada día, Cronos te pedirá una receta de cocina específica (te dice el plato exacto que quiere).",
+            "Paso 4: Prepara el plato en tu refinador nutricional (Nutrient Processor, se obtiene en la misión de Agricultura).",
+            "Paso 5: Lleva el plato a Cronos y entrégaselo.",
+            "Paso 6: Te dará entre 50 y 300 nanites dependiendo de la calidad de la receta.",
+            "Paso 7: Repite 1-2 veces más. Cronos suele aceptar hasta 3 recetas por día."
+          ],
+          "tips": [
+            "Las recetas más simples son más fáciles de preparar pero dan menos nanites.",
+            "Cultiva una granja básica de plantas (Fungussía, Gamma Weed, etc.) para tener ingredientes siempre.",
+            "Puedes comprar ingredientes básicos en los NPCs de la estación y en la Anomalía.",
+            "Recetas como 'Pan de Carne de Bestia' o 'Refrigerios de Delicias Proteicas' dan buenos nanites.",
+            "Hay guías completas en Assistant for NMS app con todas las recetas."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nanites_discoveries",
+      "title": "Método #5: Registrar Descubrimientos",
+      "summary": "Sube de rango con los gremios registrando descubrimientos planetarios y recibirás nanites como recompensa.",
+      "order": 5,
+      "methods": [
+        {
+          "title": "Descubrimientos y Análisis Planetario",
+          "difficulty": "easy",
+          "type": "passive",
+          "speed": "slow",
+          "tags": ["descubrimientos", "exploración", "pasivo"],
+          "steps": [
+            "Paso 1: Explora planetas y escanea toda la fauna con tu Visor de Análisis.",
+            "Paso 2: Cuando completes el 100% de la fauna de un planeta, ve al menú de Descubrimientos (tecla ESC → Descubrimientos).",
+            "Paso 3: Selecciona el planeta donde completaste la fauna.",
+            "Paso 4: Sube el descubrimiento al servidor pulsando el botón 'Subir descubrimientos'.",
+            "Paso 5: Recibirás nanites por cada especie descubierta y un bonus por completar el 100%.",
+            "Paso 6: Por completar toda la fauna recibes ~250 nanites iniciales más bonus según la rareza de las especies.",
+            "Paso 7: También puedes subir registros de flora y minerales por nanites menores (5-10 cada uno)."
+          ],
+          "tips": [
+            "Usa el Visor de Análisis con mejoras S-Class: escanea fauna a mayor distancia.",
+            "Los planetas con 4-6 especies son los más rápidos de completar.",
+            "Los planetas acuáticos son difíciles porque la fauna marina es más esquiva.",
+            "No te obsesiones con completar planetas difíciles, haz los fáciles primero.",
+            "Cada vez que subes un descubrimiento ganas experiencia para el rango de explorador."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nanites_refining",
+      "title": "Método #6: Refinar Platino y Otros Materiales",
+      "summary": "Varios minerales y lingotes se pueden refinar directamente en nanites. El platino es el más eficiente.",
+      "order": 6,
+      "methods": [
+        {
+          "title": "Refinado de Platino, Oro y Plata",
+          "difficulty": "easy",
+          "type": "passive",
+          "speed": "medium",
+          "tags": ["refinado", "platino", "oro", "plata", "minerales"],
+          "steps": [
+            "Paso 1: Consigue Platino (Platinum), Oro (Gold) o Plata (Silver). Se obtienen minando asteroides o como botín de cargueros piratas.",
+            "Paso 2: Coloca los materiales en un refinador (mediano o grande recomendado).",
+            "Paso 3: Recetas de refinado:",
+            "   - Platino (Platinum) → Nanite Clusters: 35:1 (35 platino = 1 nanite)",
+            "   - Oro (Gold) → Nanite Clusters: 30:1 (30 oro = 1 nanite)",
+            "   - Plata (Silver) → Nanite Clusters: 20:1 (20 plata = 1 nanite)",
+            "Paso 4: El Platino es el más común y fácil de conseguir en grandes cantidades minando asteroides.",
+            "Paso 5: Refina en lotes grandes. Una pila de 9999 platino = ~285 nanites.",
+            "Paso 6: También puedes refinar Lingotes Calientes (Hot Ice) → Nanites: 1:1."
+          ],
+          "tips": [
+            "NO es el método más eficiente por tiempo. El moho desenfrenado da más nanites por minuto.",
+            "Úsalo como método secundario cuando tengas exceso de platino de otras actividades.",
+            "Si eres pirata, asaltar cargueros te dará toneladas de platino y oro que puedes refinar.",
+            "Los asteroides en sistemas con metales activos sueltan más platino.",
+            "Combínalo con refinadores grandes para procesar 3 materiales simultáneamente."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nanites_freighter_raids",
+      "title": "Método #7: Asaltar Cargueros",
+      "summary": "Conviértete en pirata y asalta cargueros en sistemas piratas (Outlaw) para vender sus módulos de tecnología por nanites.",
+      "order": 7,
+      "methods": [
+        {
+          "title": "Piratería en Sistemas Outlaw",
+          "difficulty": "medium",
+          "type": "active",
+          "speed": "fast",
+          "tags": ["pirata", "carguero", "outlaw", "contrabando"],
+          "steps": [
+            "Paso 1: Encuentra un sistema pirata (Outlaw). Se ven como un icono de calavera en el mapa galáctico.",
+            "Paso 2: Equipa tu nave con mejoras de combate (escudos, cañones cíclicos, Infra-Knife Accelerator).",
+            "Paso 3: Viaja al sistema Outlaw. Las patrullas de centinelas no te atacarán por piratería aquí.",
+            "Paso 4: Apunta a los cargueros grandes (clase Dreadnought o Venator) que viajan en el sistema.",
+            "Paso 5: Dispara a los contenedores de carga de los cargueros (los puntos brillantes en los costados).",
+            "Paso 6: NO ataques las naves de carga pequeñas (frigates) a menos que quieras perder reputación.",
+            "Paso 7: Recoge todo lo que suelten: módulos de tecnología, objetos de contrabando, platino, oro.",
+            "Paso 8: Vende los módulos de tecnología S o A en la estación pirata por nanites.",
+            "Paso 9: Vende el contrabando (Hadarcore, etc.) en sistemas normales por unidades."
+          ],
+          "tips": [
+            "Los módulos de tecnología S de cargueros se venden por ~450-600 nanites cada uno.",
+            "Puedes asaltar 3-4 cargueros antes de que la policía pirata se vuelva hostil temporalmente.",
+            "Instala el 'Positron Ejector' en tu nave: destruye contenedores en un área enorme.",
+            "Los sistemas Outlaw tienen una nave estación con un 'Scrap Dealer' que también compra partes robadas.",
+            "Este método es excelente si ya tienes una nave de combate decente y buscas nanites + dinero rápido."
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "categoryId": "glyphs",
+  "articles": [
+    {
+      "id": "glyphs_how_to_get",
+      "title": "Cómo Conseguir los 16 Glifos",
+      "summary": "Dos métodos principales para desbloquear todos los glifos: la misión del Atlas o viajeros fantasmas en estaciones espaciales.",
+      "order": 1,
+      "methods": [
+        {
+          "title": "Método #1: Misión del Atlas / Nuevo Juego (Recomendado)",
+          "difficulty": "easy",
+          "type": "active",
+          "speed": "medium",
+          "tags": ["historia", "glifos", "principiantes"],
+          "steps": [
+            "Paso 1: Comienza un nuevo juego o continúa tu partida actual.",
+            "Paso 2: Sigue la misión principal 'El Despertar' hasta que te envíen al espacio.",
+            "Paso 3: Al pulsar en la galaxia para hacer warp, aparecerá una anomalía. Entra y habla con nada (Polo) o con el mensaje misterioso.",
+            "Paso 4: Selecciona la opción 'Siguiendo los pasos del Atlas' para iniciar la línea de misión del Atlas.",
+            "Paso 5: Completa los hitos del Atlas. Te irá dando coordenadas de portales Atlas.",
+            "Paso 6: Cada portal Atlas que visites te recompensará con un glifo. Hay 16 portales Atlas, uno por glifo.",
+            "Paso 7: Cuando llegues a 'El Final del Atlas', puedes reiniciar el simulacro o no. Tras esto, la misión te dará TODOS los glifos restantes de golpe.",
+            "Paso 8: Si NO eliges reiniciar el simulacro, igualmente recibirás todos los glifos al completar la misión principal."
+          ],
+          "tips": [
+            "Este método te da todos los glifos automáticamente. Es el más cómodo.",
+            "La misión del Atlas es relativamente corta (~2-3 horas si te enfocas).",
+            "No necesitas buscar nada manualmente, la misión te guía."
+          ]
+        },
+        {
+          "title": "Método #2: Viajeros Fantasmas en Estaciones Espaciales",
+          "difficulty": "medium",
+          "type": "active",
+          "speed": "slow",
+          "tags": ["alternativo", "exploración"],
+          "steps": [
+            "Paso 1: Necesitas tener al menos una unidad de Nannitas (Nannite Clusters).",
+            "Paso 2: Ve a estaciones espaciales. Busca viajeros fantasma: son viajeros andróginos, translúcidos, que brillan levemente.",
+            "Paso 3: Interactúa dos veces con el viajero fantasma.",
+            "Paso 4: La primera interacción te dará algo de diálogo.",
+            "Paso 5: La segunda interacción te costará 100 Nannites y te revelará la ubicación de su tumba.",
+            "Paso 6: Ve a la tumba del viajero en el planeta indicado. Al interactuar, recibirás 1 glifo y una frase de coordenadas de portal.",
+            "Paso 7: Repite hasta tener los 16 glifos.",
+            "Paso 8: No hay límite de cuántos viajeros puedes encontrar. Sigue saltando entre sistemas."
+          ],
+          "tips": [
+            "Viaja a sistemas económicos prósperos o de alto suministro: tienen más variedad de NPCs en la estación.",
+            "Los viajeros NO aparecen en todas las estaciones. A veces tendrás que visitar 3-4 sistemas para encontrar uno.",
+            "Lleva 1600 Nannits mínimo (100 por cada tumba).",
+            "Marca los planetas donde hay tumbas con un waypoint por si necesitas volver.",
+            "Es más rápido si usas un carguero con tecnología de salto a distancia alta."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "glyphs_find_portal",
+      "title": "Cómo Encontrar un Portal",
+      "summary": "Los portales están ocultos en cada planeta. Necesitas un monolito para localizarlos.",
+      "order": 2,
+      "methods": [
+        {
+          "title": "Método #1: Usar un Monolito con un Relic",
+          "difficulty": "easy",
+          "type": "active",
+          "speed": "fast",
+          "tags": ["portal", "monolito", "exploración"],
+          "steps": [
+            "Paso 1: Consigue un Relic planetario (Gek Relic, Vy'keen Dagger, Korvax Casing) según la raza dominante del sistema.",
+            "Paso 2: Compra mapas de 'Mapa del Sitio Alienígena' en la estación espacial con el cartógrafo (Cartographer).",
+            "Paso 3: Usa los mapas desde tu inventario hasta que marque un Monolito (ignora las otras estructuras).",
+            "Paso 4: Ve al Monolito señalado. Resuelve el acertijo (elige la opción correcta según la raza del sistema).",
+            "Paso 5: Vuelve a hablar con el Monolito. Ahora te dará la opción 'Localizar Portal'.",
+            "Paso 6: Entrégale el Relic correcto (Gek Relic para sistema Gek, etc).",
+            "Paso 7: El Monolito marcará la ubicación del portal en tu HUD.",
+            "Paso 8: Ve al portal. Está activado pero necesita los 16 glifos cargados para usarse."
+          ],
+          "tips": [
+            "Los monolitos siempre marcan un portal en el mismo planeta. Úsalos antes de cambiar de planeta.",
+            "Cada planeta tiene exactamente UN portal.",
+            "Puedes construir un base-teleport cerca del portal para volver fácilmente.",
+            "Si no encuentras un mapa de monolitos, prueba con el cartógrafo de otra estación.",
+            "La Exocraft con el escáner actualizado también puede localizar monolitos."
+          ]
+        },
+        {
+          "title": "Método #2: Exocraft con Escáner de Estructuras",
+          "difficulty": "easy",
+          "type": "active",
+          "speed": "fast",
+          "tags": ["exocraft", "portal", "exploración"],
+          "steps": [
+            "Paso 1: Construye una estación de Exocraft en tu base.",
+            "Paso 2: Fabrica un Exocraft (el Coloso o el Nómada son buenos para explorar).",
+            "Paso 3: Instala el 'Escáner de Señales' (Signal Booster upgrade) en el Exocraft.",
+            "Paso 4: Usa el escáner desde el Exocraft y selecciona 'Escanear Estructuras Alienígenas'.",
+            "Paso 5: Te marcará monolitos, portales, etc. Escanea hasta encontrar un Monolito.",
+            "Paso 6: Sigue los pasos del método anterior para que el Monolito revele el portal."
+          ],
+          "tips": [
+            "El Exocraft con escáner es más eficiente que usar mapas porque no hay RNG.",
+            "El Exocraft Nómada es ideal porque vuela sobre el agua y el terreno accidentado.",
+            "Combínalo con mejoras de velocidad para moverte rápido."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "glyphs_activate_portal",
+      "title": "Cómo Activar y Usar un Portal",
+      "summary": "Una vez encuentres el portal, necesitas cargar los 16 glifos con materiales para activarlo y viajar.",
+      "order": 3,
+      "methods": [
+        {
+          "title": "Activar y Viajar por Portal",
+          "difficulty": "easy",
+          "type": "active",
+          "speed": "medium",
+          "tags": ["portal", "viaje", "glifos"],
+          "steps": [
+            "Paso 1: Acércate al portal. Verás una gran puerta con 16 espacios de glifos en el centro.",
+            "Paso 2: Interactúa con la plataforma central para empezar la carga.",
+            "Paso 3: Verás que puedes seleccionar cada uno de los 16 glifos. Debes tener al menos uno desbloqueado (ver artículo de glifos).",
+            "Paso 4: Introduce la dirección de 12 glifos que quieras usar. Las direcciones típicas tienen 12 caracteres (los primeros 12 glifos).",
+            "Paso 5: Una vez introducida la dirección, la plataforma te pedirá CARGA de materiales para activar el portal.",
+            "Paso 6: Cada glifo requiere un material específico para cargarse. Los materiales varían: Cobre, Cadmio, Emiril, Indio, sales minerales, etc.",
+            "Paso 7: Introduce los materiales necesarios en las ranuras de carga. Puedes ver qué necesita cada glifo desde la interfaz.",
+            "Paso 8: Una vez todo cargado, la puerta del portal se activará con un efecto visual. Cruza el portal.",
+            "Paso 9: Al otro lado, estarás en el sistema de destino. Tu nave estará disponible en el planeta.",
+            "Paso 10: Para volver, interactúa de nuevo con el portal desde el otro lado y selecciona 'Volver al origen'."
+          ],
+          "tips": [
+            "Los materiales para cargar un portal son abundantes. Siempre lleva un stock variado en tu nave.",
+            "Si cargas los 16 glifos cada vez, puedes usar direcciones de hasta 12 glifos después de la activación inicial.",
+            "NO construyas una base cerca del portal en el lado de destino si quieres explorar — puede causar problemas de carga.",
+            "El portal permanece activo mientras estés en el sistema de destino. Cruza de vuelta cuando quieras regresar.",
+            "Puedes construir un teleport en el lado de destino y conectarlo a tu red de bases."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "glyphs_portal_addresses",
+      "title": "Direcciones de Portal y Recursos Online",
+      "summary": "Las direcciones de portal (secuencias de 12 glifos) te llevan a planetas específicos en la galaxia. Aquí tienes cómo usarlas y dónde encontrarlas.",
+      "order": 4,
+      "methods": [
+        {
+          "title": "Entendiendo las Direcciones de Portal",
+          "difficulty": "easy",
+          "type": "passive",
+          "speed": "fast",
+          "tags": ["direcciones", "portalrepository", "coordenadas"],
+          "steps": [
+            "Paso 1: Cada dirección de portal tiene 12 glifos, numerados del 1 al 16.",
+            "Paso 2: Los 12 glifos codifican: coordenadas galácticas + dirección + planeta + civilización.",
+            "Paso 3: El glifo 1 (Sol Poniente/Sunset) es el más común y suele indicar 'centro' o 'inicio'.",
+            "Paso 4: Las direcciones se representan como texto con guiones, ej: 0101F9557C30.",
+            "Paso 5: Los primeros glifos indicen la región. Los últimos indican el planeta específico.",
+            "Paso 6: Portalrepository.com es el sitio más completo para buscar direcciones de todo tipo: naves, barcos, multitools, fauna, etc."
+          ],
+          "tips": [
+            "La galaxia (Euclid, Hilbert, Calypso, etc) importa. Las direcciones solo funcionan en la galaxia correcta.",
+            "Si usas una dirección para un carguero S-Class, asegúrate de que estás en la galaxia correcta.",
+            "Añade la dirección a tus notas o captura de pantalla antes de viajar."
+          ]
+        },
+        {
+          "title": "Restricciones al Viajar por Portal",
+          "difficulty": "medium",
+          "type": "passive",
+          "speed": "fast",
+          "tags": ["restricciones", "portales", "limitaciones"],
+          "steps": [
+            "Paso 1: Al cruzar un portal, NO puedes construir una base en el lado de destino directamente.",
+            "Paso 2: NO puedes llamar a tu carguero ni a la Anomalía desde el lado de destino del portal.",
+            "Paso 3: NO puedes teletransportarte a otras bases usando la red de teleport desde el lado de destino.",
+            "Paso 4: Puedes volar en tu nave, minar, explorar, y hacer casi todo lo demás.",
+            "Paso 5: Los descubrimientos que hagas al otro lado del portal se guardan.",
+            "Paso 6: Si quieres establecer una base, debes: cruzar el portal → ir a la estación espacial → volver por el portal → ahora puedes teleportarte a esa estación desde la red de teleport.",
+            "Paso 7: Una vez que hayas teleportado a la estación correctamente, puedes construir una base en el planeta y reclamarla como propia."
+          ],
+          "tips": [
+            "Truco para quedarte: cruza el portal, ve a la estación espacial, sal de la estación, y luego usa el teleport de la estación para volver a tu base original. Luego desde tu base, usa el teleport para ir a la estación que visitaste — ya estará en tu lista de destinos.",
+            "Otra opción: juega con un amigo. Que te invite a su grupo estando al otro lado del portal, y luego puedes construir base.",
+            "NO FUNCIONA: en Modo Supervivencia o Permadeath las restricciones son más estrictas."
+          ]
+        }
+      ]
+    }
+  ]
+}

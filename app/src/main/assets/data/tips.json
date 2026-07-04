@@ -1,0 +1,296 @@
+{
+  "categoryId": "tips",
+  "articles": [
+    {
+      "id": "tips_exosuit_priority",
+      "title": "Prioridad #1: Espacio del Exotraje",
+      "summary": "El exotraje es tu inventario más importante. Cada sistema estelar te permite comprar 2 ranuras adicionales.",
+      "order": 1,
+      "methods": [
+        {
+          "title": "Conseguir 2 Ranuras por Sistema",
+          "difficulty": "easy",
+          "type": "active",
+          "speed": "fast",
+          "tags": ["exotraje", "inventario", "prioridad", "ranuras"],
+          "steps": [
+            "Paso 1: Cuando llegues a un NUEVO sistema estelar, ve a la estación espacial.",
+            "Paso 2: Busca la tienda de mejoras de exotraje (Exosuit Upgrade Station). Está en la pared, al lado de la tienda de tecnología.",
+            "Paso 3: Compra la ranura extra por 50,000 unidades (sube de precio hasta ~200k).",
+            "Paso 4: ESTA es la PRIMERA ranura del sistema.",
+            "Paso 5: Para la SEGUNDA ranura: ve a la Anomalía (Nexo).",
+            "Paso 6: En la Anomalía, al fondo, hay otra tienda de exotraje (al lado de donde se compran planos de construcción).",
+            "Paso 7: Compra la segunda ranura. Cuesta lo mismo que en la estación (el precio es por ranura, no por tienda).",
+            "Paso 8: Repite en cada nuevo sistema que visites. Al principio es caro, pero se paga solo."
+          ],
+          "tips": [
+            "HAZ ESTO SIEMPRE. Es la prioridad más alta del early game.",
+            "El exotraje es compartido entre inventario general y tecnológico. Prioriza el general.",
+            "Si tienes poco dinero, la primera ranura (estación) es más fácil de pagar.",
+            "Con 20 sistemas visitados, tienes 40 ranuras extra = inventario enorme.",
+            "El precio se estabiliza alrededor de 200,000 unidades por ranura."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tips_anomaly_what_to_unlock",
+      "title": "Anomalía: ¿Qué Desbloquear Primero?",
+      "summary": "La Anomalía (Nexo) tiene muchos vendedores. Aquí tienes el orden de prioridad para gastar tus nanites y unidades.",
+      "order": 2,
+      "methods": [
+        {
+          "title": "Prioridades en la Anomalía",
+          "difficulty": "easy",
+          "type": "passive",
+          "speed": "fast",
+          "tags": ["anomalía", "nexo", "desbloquear", "prioridades"],
+          "steps": [
+            "Paso 1: VISOR DE ANÁLISIS (Analysis Visor): Compra los módulos S de escáner (S-Class Scanner Upgrade) — 3 módulos. Prioridad #1.",
+            "Paso 2: PLANOS DE CONSTRUCCIÓN: Compra Medium Refiner, Large Refiner, Teleport, Galactic Trade Terminal. Prioritario.",
+            "Paso 3: MEJORAS DE EXOTRAJE: Escudo S-Class (3 módulos) y Protección de Vida (3 módulos S).",
+            "Paso 4: NAVES: Economy Scanner + Conflict Scanner para tu nave.",
+            "Paso 5: MULTITOOL: Scatter Blaster (arma) o Pulse Spitter + módulos S.",
+            "Paso 6: PLANOS DE FABRICACIÓN: Compra los planos de productos avanzados (Microprocessor, etc.) del vendedor de planos.",
+            "Paso 7: EXOCRAFT: Los planos de Exocraft son opcionales pero útiles. Cómpralos cuando tengas base estable.",
+            "Paso 8: COSMÉTICOS: Deja para el final. Prioriza funcionalidad sobre apariencia."
+          ],
+          "tips": [
+            "Los planos de construcción se compran en la terminal de planos (Construction Research Station) en la Anomalía.",
+            "NO gastes nanites en módulos C o B. Siempre espera a tener para módulos S (o X si eres pirata).",
+            "En la Anomalía también puedes comprar mejoras de personalización de naves (colores) con nanites.",
+            "Las mejoras de exotraje de la Anomalía son las mismas que en estaciones espaciales, pero más caras."
+          ]
+        },
+        {
+          "title": "Qué Hacer en tu Primera Visita al Nexo",
+          "difficulty": "easy",
+          "type": "active",
+          "speed": "fast",
+          "tags": ["anomalía", "primera vez", "principiantes"],
+          "steps": [
+            "Paso 1: Al entrar por primera vez, habla con nada (Polo) para comenzar la misión del Nexo.",
+            "Paso 2: Explora todas las áreas: tienda de exotraje (fondo izq), tienda de naves, tienda de multitool.",
+            "Paso 3: Compra la segunda ranura de exotraje del día (ver artículo anterior).",
+            "Paso 4: Compra los 3 módulos S de escáner (Analysis Visor) — cambian el juego.",
+            "Paso 5: Revisa las misiones del Nexo: haz la de Mercurio (quicksilver) si hay disponible.",
+            "Paso 6: Visita a Helios (NPC robótico) y Cronos (chef) para nanites gratis.",
+            "Paso 7: Compra planos de construcción básicos (Medium Refiner y Teleport mínimo).",
+            "Paso 8: Sal y continúa tu viaje."
+          ],
+          "tips": [
+            "El Nexo está disponible desde el principio si pulsas X en el espacio (no necesitas desbloquearlo).",
+            "Puedes invocar la Anomalía en cualquier sistema excepto los del tutorial inicial.",
+            "Si otro jugador está en la Anomalía, puedes ver su avatar y sus gestos."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tips_purple_systems",
+      "title": "Sistemas Púrpura y Autophage",
+      "summary": "Contenido de Worlds Part 1 & 2: sistemas púrpura, la raza Autophage y nuevas mecánicas de exploración.",
+      "order": 3,
+      "methods": [
+        {
+          "title": "Accediendo a Sistemas Púrpura",
+          "difficulty": "hard",
+          "type": "active",
+          "speed": "medium",
+          "tags": ["púrpura", "autophage", "worlds", "nuevo contenido"],
+          "steps": [
+            "Paso 1: Completa la misión principal 'El Despertar' hasta tener todos los glifos.",
+            "Paso 2: Completa la misión 'El Fin del Atlas' (o al menos llega al punto donde tienes la opción de reiniciar el simulacro).",
+            "Paso 3: Completa la misión 'Trace of Metal' si está disponible (relacionada con el sentinela acompañante).",
+            "Paso 4: Después de estas misiones, recibirás un mensaje misterioso que inicia la misión 'They Who Returned' (Los que Regresaron).",
+            "Paso 5: Sigue la misión para conocer a la raza Autophage (seres robóticos con apariencia de viajero).",
+            "Paso 6: Los sistemas púrpura (Purple Systems) requieren el 'Hyperdrive' con tecnología 'Atlas Pass' o 'Sentinel Technology' para acceder.",
+            "Paso 7: Los sistemas púrpura contienen planetas con la biome 'Discontinued' (biomas antiguos y raros), nuevos recursos y fauna.",
+            "Paso 8: Los Autophage tienen su propio árbol de personalización (apariencia robótica) y misiones."
+          ],
+          "tips": [
+            "Los sistemas púrpura son CONTENIDO END-GAME. No intentes llegar antes de completar la historia.",
+            "Los Autophage venden módulos X-Class de calidad superior.",
+            "En planetas púrpura hay naves vivas de segunda especie (Worm-like ships).",
+            "Necesitas el 'Cadmium Drive', 'Emeril Drive' e 'Indium Drive' instalados en tu nave para acceder a todos los sistemas.",
+            "La misión 'They Who Returned' es larga pero revela mucho lore del juego."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tips_expeditions",
+      "title": "Expediciones",
+      "summary": "Eventos de temporada que ofrecen recompensas exclusivas. Cómo empezarlas y completarlas rápido.",
+      "order": 4,
+      "methods": [
+        {
+          "title": "Cómo Empezar y Completar Expediciones",
+          "difficulty": "medium",
+          "type": "active",
+          "speed": "medium",
+          "tags": ["expediciones", "temporada", "eventos", "recompensas"],
+          "steps": [
+            "Paso 1: Para empezar una expedición, ve al menú principal y selecciona 'Nuevo Juego' → 'Expedición'.",
+            "Paso 2: También puedes iniciarla DESDE tu partida normal en el terminal de expediciones de la Anomalía (detrás de nada, en la sala de atrás).",
+            "Paso 3: Cada expedición tiene 5 fases (Rendevouz). Cada fase tiene 4-6 hitos.",
+            "Paso 4: Sigue las indicaciones. Las expediciones suelen comenzar en un planeta específico lejano.",
+            "Paso 5: Completar hitos te da recompensas: nanites, unidades, tecnología, y objetos cosméticos exclusivos.",
+            "Paso 6: Al completar las 5 fases, obtienes la recompensa final (nave, multitool, o traje especial).",
+            "Paso 7: Las recompensas de expediciones se transfieren a todas tus partidas (cuentas cruzadas entre modos).",
+            "Paso 8: Las expediciones duran ~6-8 semanas cada una. No hay prisa, pero tampoco te duermas."
+          ],
+          "tips": [
+            "Las expediciones se pueden completar en ~8-12 horas si te enfocas.",
+            "Busca guías en Reddit (r/NoMansSkyTheGame) para la expedición actual. Siempre hay rutas optimizadas.",
+            "Las recompensas de expediciones incluyen: naves (Golden Vector, Utopia Speeder), multitools especiales, trajes y decoraciones.",
+            "Si inicias la expedición desde tu partida normal, llevas tu tecnología y exotraje (menos la nave).",
+            "Las expediciones se pueden pausar y reanudar cuando quieras."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tips_external_tools",
+      "title": "Apps y Recursos Externos Esenciales",
+      "summary": "Herramientas fuera del juego que todo jugador de NMS debería conocer.",
+      "order": 5,
+      "methods": [
+        {
+          "title": "Apps Móviles y Sitios Web",
+          "difficulty": "easy",
+          "type": "passive",
+          "speed": "fast",
+          "tags": ["apps", "recursos", "externos", "asistente"],
+          "steps": [
+            "Paso 1: ASSISTANT FOR NO MAN'S SKY (App Android/iOS): La app más completa. Incluye:",
+            "   - Calculadora de fabricación (recetas de Stasis Device, Fusion Ignitor, etc.)",
+            "   - Guía de recetas de refinado",
+            "   - Catálogo de naves, multitools, fauna",
+            "   - Tabla de economía galáctica",
+            "   - Guía de misiones y expediciones",
+            "   - Lista de todos los objetos del juego",
+            "Paso 2: PORTALREPOSITORY.COM: Buscador de direcciones de portal. Encuentra naves específicas, multitools, barcos, fauna.",
+            "Paso 3: NMSCoordinateExchange (Reddit + Web): La comunidad más grande para compartir coordenadas de naves, barcos, planetas.",
+            "Paso 4: REDDIT r/NoMansSkyTheGame y r/NMSGalacticHub: Comunidades activas con guías, bugs, expediciones.",
+            "Paso 5: NMS Wiki (Fandom): wiki completa con toda la información del juego.",
+            "Paso 6: Discord de No Man's Sky: servidor oficial con canales de ayuda, trading, y grupos de expediciones."
+          ],
+          "tips": [
+            "Assistant for NMS es la MEJOR inversión de tiempo fuera del juego. Descárgala YA.",
+            "Portal Repository es indispensable si buscas naves o multitools específicos.",
+            "NMSCoordinateExchange tiene filtros por tipo de nave, clase, colores, etc.",
+            "La comunidad de NMS es muy amigable. Pregunta en Reddit si tienes dudas.",
+            "Guarda las direcciones de portal que te interesen en un bloc de notas."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tips_glitch_duplication",
+      "title": "Glitch de Duplicación (Refinador)",
+      "summary": "Un glitch conocido que permite duplicar objetos usando el refinador y el guardado automático. Úsalo bajo tu propio riesgo.",
+      "order": 6,
+      "methods": [
+        {
+          "title": "Duplicación con Refinador (Multi-Jugador Recomendado)",
+          "difficulty": "easy",
+          "type": "active",
+          "speed": "fast",
+          "tags": ["glitch", "duplicación", "refinador", "truco"],
+          "steps": [
+            "Paso 1 (EN SOLITARIO): Pon el objeto que quieres duplicar en un refinador (mediano o grande).",
+            "Paso 2: Sal del refinador sin sacar el objeto. Guarda la partida (entra y sal de tu nave o usa Save Beacon).",
+            "Paso 3: Abre el refinador y SACA el objeto. CIERRA el refinador inmediatamente.",
+            "Paso 4: Recarga el guardado automático (menú → Recargar Guardado).",
+            "Paso 5: ¡El objeto debe estar tanto en tu inventario como en el refinador!",
+            "Paso 6: EN MULTIJUGADOR: Pon el objeto en un refinador. Que tu amigo abra el refinador y saque el objeto. Tú guardas y recargas.",
+            "Paso 7: EN LA ANOMALÍA: Pon objetos en refinadores públicos. Otros jugadores pueden verlos y cogerlos.",
+            "Paso 8: Funciona con: materiales, módulos, objetos de fabricación, incluso huevos de mascota."
+          ],
+          "tips": [
+            "Este glitch NO está parchado en las versiones actuales. Hello Games lo ha dejado intencionalmente (nunca lo arreglaron del todo).",
+            "NO dupliques objetos de misiones o el juego podría buguearse la misión.",
+            "Úsalo con moderación: duplicar demasiado puede arruinar la diversión del juego.",
+            "Los refinadores públicos de la Anomalía son una trampa: alguien puede robarte lo que pongas.",
+            "En multijugador, la duplicación es casi instantánea y mucho más segura.",
+            "Método alternativo: duplica pilas de materiales como Indio Activado para vender o nanites para mejoras."
+          ]
+        },
+        {
+          "title": "Glitch de Duplicación con Nave (Personal Refiner)",
+          "difficulty": "medium",
+          "type": "active",
+          "speed": "fast",
+          "tags": ["glitch", "duplicación", "nave", "refinador personal"],
+          "steps": [
+            "Paso 1: Coloca el objeto a duplicar en el 'Personal Refiner' (Refinador Personal) de tu exotraje.",
+            "Paso 2: Guarda la partida (entra/sale de nave).",
+            "Paso 3: Cambia de nave (llama a otra nave o consigue una nueva).",
+            "Paso 4: Tu exotraje guarda el estado de cuando guardaste. Si cambias de nave, el refinador personal puede duplicar el objeto.",
+            "Paso 5: Saca el objeto del refinador personal. Recarga el guardado.",
+            "Paso 6: El objeto aparecerá tanto en tu inventario como en el refinador personal."
+          ],
+          "tips": [
+            "Este método funciona porque el Personal Refiner guarda su estado en el save de la nave.",
+            "Es más lento que el método de refinador normal pero funciona en single player.",
+            "No funciona si tienes el refinador personal en proceso de refinar algo."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tips_general_strategy",
+      "title": "Consejos Generales y Estrategias",
+      "summary": "Tips rápidos para jugadores nuevos y veteranos que quieren optimizar su experiencia.",
+      "order": 7,
+      "methods": [
+        {
+          "title": "Consejos Esenciales para Principiantes",
+          "difficulty": "easy",
+          "type": "passive",
+          "speed": "fast",
+          "tags": ["consejos", "generales", "principiantes"],
+          "steps": [
+            "Paso 1: SIGUE LA MISIÓN PRINCIPAL hasta llegar a la Anomalía. No te distraigas demasiado al principio.",
+            "Paso 2: EXPANDE EL INVENTARIO: Compra las 2 ranuras de exotraje en cada nuevo sistema.",
+            "Paso 3: CONSERVA NANNITS: No gastes nanites en módulos C o B. Espera a tener para S.",
+            "Paso 4: USA EL ESCÁNER: Escanea TODO lo que veas. Cada escaneo da unidades con mejoras de escáner.",
+            "Paso 5: CONSTRUYE UNA BASE TEMPRANO: Teletransporta, almacena y refina desde tu base.",
+            "Paso 6: NO VENDAS MATERIALES RAROS: Algunos como Cadmium, Emiril e Indio se usan para mejorar el hiperimpulso.",
+            "Paso 7: GUARDA CON FRECUENCIA: Al entrar/salir de tu nave guarda automáticamente.",
+            "Paso 8: APRENDE LOS MODOS DE JUEGO: Normal (relajado), Supervivencia (más difícil), Permadeath (muerte permanente)."
+          ],
+          "tips": [
+            "El modo más popular es Normal. Si eres nuevo, empieza aquí.",
+            "Creative Mode te permite construir sin límites. Útil para practicar construcción.",
+            "Puedes tener múltiples partidas. Las recompensas de expediciones se comparten entre modos.",
+            "No tengas miedo de experimentar: NMS es un juego de exploración, no hay forma 'incorrecta' de jugar."
+          ]
+        },
+        {
+          "title": "Estrategias Avanzadas",
+          "difficulty": "hard",
+          "type": "passive",
+          "speed": "fast",
+          "tags": ["consejos", "avanzados", "estrategias"],
+          "steps": [
+            "Paso 1: GRANJA DE INDIO ACTIVADO: La mejor fuente de ingresos pasivos. Construye una granja de indio activado temprano.",
+            "Paso 2: CIRCUITO DE GREMIOS: Completa misiones de gremio en los 3 tipos para subir de rango y obtener mejores recompensas.",
+            "Paso 3: COLECCIÓN DE NAVES: Puedes tener hasta 12 naves (6 en el carguero, 6 en tu flota). Planifica tu colección.",
+            "Paso 4: PERSONALIZACIÓN: Usa el terminal de personalización en la Anomalía para cambiar colores de naves, exocraft y exotraje.",
+            "Paso 5: CARGUERO COMO BASE MÓVIL: Equipa tu carguero con todas las terminales, refinadores y almacenamiento. Es una base que viaja contigo.",
+            "Paso 6: EXPEDICIONES: Participa en cada expedición. Las recompensas son exclusivas y no vuelven (normalmente).",
+            "Paso 7: MULTIJUGADOR: Jugar con amigos multiplica la diversión. Puedes construir juntos, comerciar, y hacer misiones del Nexo."
+          ],
+          "tips": [
+            "Tu carguero puede tener cultivos, refinerías, y terminales. Conviértelo en tu base principal viajera.",
+            "Las frases de portal se comparten en la comunidad. Las direcciones raras (naves exóticas de colores) son muy buscadas.",
+            "No te estreses por 'perderte' algo. NMS es enorme y siempre hay algo nuevo que encontrar.",
+            "La wiki de NMS (fandom) y Assistant for NMS son tus mejores amigos para consultar recetas y datos."
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+name: Data Validation
+
+on:
+  push:
+    paths:
+      - 'app/src/main/assets/data/**'
+  pull_request:
+    paths:
+      - 'app/src/main/assets/data/**'
+
+jobs:
+  validate:
+    name: Validate JSON Data
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Validate JSON files
+        run: |
+          echo "Validating JSON files..."
+          for f in app/src/main/assets/data/*.json; do
+            if jq empty "$f" 2>/dev/null; then
+              echo "✅ $f is valid"
+            else
+              echo "❌ $f is INVALID"
+              exit 1
+            fi
+          done
+          echo "🎉 All JSON files are valid!"
+
+      - name: Check category integrity
+        run: |
+          CATS=$(jq -r '.categories[].id' app/src/main/assets/data/categories.json)
+          for cat in $CATS; do
+            if [ -f "app/src/main/assets/data/${cat}.json" ]; then
+              echo "✅ ${cat}.json exists"
+            else
+              echo "❌ Missing ${cat}.json for category $cat"
+              exit 1
+            fi
+          done
+          echo "🎉 All category files present!"

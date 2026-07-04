@@ -1,0 +1,261 @@
+{
+  "categoryId": "ships",
+  "articles": [
+    {
+      "id": "ships_types",
+      "title": "Tipos de Nave",
+      "summary": "Guía completa de todos los tipos de nave en No Man's Sky: estadísticas, usos y cómo conseguirlas.",
+      "order": 1,
+      "methods": [
+        {
+          "title": "Fighter (Caza)",
+          "difficulty": "easy",
+          "type": "active",
+          "speed": "fast",
+          "tags": ["caza", "combate", "fighter"],
+          "steps": [
+            "Paso 1: Los Fighters son naves de combate con bonus de daño. Tienen entre 15-30 slots de inventario.",
+            "Paso 2: Su estadística principal es el daño. Son ideales para piratería y defensa.",
+            "Paso 3: Se encuentran en cualquier sistema. Los sistemas de 3 estrellas (ricos) tienen más probabilidad de S-class.",
+            "Paso 4: Busca en estaciones espaciales, en planetas (aterrizando en edificios), o en flotas de carga.",
+            "Paso 5: Los Fighters tienen diseños variados: ala larga, ala corta, sin ala, con jetpack, etc.",
+            "Paso 6: Precio típico S-class: 25-50 millones de unidades."
+          ],
+          "tips": [
+            "Si te gusta el combate, un Fighter S-class con 3 módulos de cañón ciclico S y 3 de escudo S es imparable.",
+            "El 'Infra-Knife Accelerator' con módulos S es el arma más potente del juego.",
+            "Algunos diseños raros (como los 'Alpha Vector' o 'Rasa') son codiciados por coleccionistas."
+          ]
+        },
+        {
+          "title": "Explorer (Explorador)",
+          "difficulty": "easy",
+          "type": "active",
+          "speed": "fast",
+          "tags": ["explorador", "exploración", "hiperimpulso"],
+          "steps": [
+            "Paso 1: Los Explorers tienen bonus de distancia de hiperimpulso. Ideales para viajar lejos.",
+            "Paso 2: Tienen entre 20-35 slots de inventario.",
+            "Paso 3: Son excelentes para exploración, viajar al centro o hacer warp a sistemas remotos.",
+            "Paso 4: Se encuentran en cualquier sistema. Suelen tener diseños alargados, con esferas y alas de insecto.",
+            "Paso 5: Un Explorer S-class con mejoras de hiperimpulso puede saltar 2,500+ años luz.",
+            "Paso 6: Precio típico S-class: 15-35 millones de unidades."
+          ],
+          "tips": [
+            "Los Explorers tienen el bonus de hiperimpulso más alto del juego.",
+            "Si tu objetivo es explorar y completar el mapa, este es tu tipo de nave.",
+            "Los diseñosen forma de 'Tulu' (bola con alas) son los más eficientes."
+          ]
+        },
+        {
+          "title": "Hauler (Carguero)",
+          "difficulty": "easy",
+          "type": "active",
+          "speed": "fast",
+          "tags": ["carguero", "carga", "comercio"],
+          "steps": [
+            "Paso 1: Los Haulers tienen el inventario MÁS GRANDE de las naves regulares: 30-50 slots.",
+            "Paso 2: Bonus de protección en planetas peligrosos: aguantan más daño por clima extremo.",
+            "Paso 3: Son ideales para comercio, transporte de materiales y contrabando.",
+            "Paso 4: Se encuentran en sistemas prósperos y en estaciones de comercio.",
+            "Paso 5: Son naves grandes, cuadradas, con gran fuselaje y alas enormes.",
+            "Paso 6: Precio típico S-class: 50-100 millones de unidades."
+          ],
+          "tips": [
+            "Un Hauler con máximo inventario es la mejor nave para transporte de mercancías.",
+            "Tener un Hauler en tu flota es útil para cuando compras/desguazas naves en estaciones.",
+            "Los Haulers se ven afectados por la economía: en sistemas piratas algunos son robados (naves 'conspicuas')."
+          ]
+        },
+        {
+          "title": "Shuttle (Lanzadera)",
+          "difficulty": "easy",
+          "type": "active",
+          "speed": "fast",
+          "tags": ["lanzadera", "barata", "principiante"],
+          "steps": [
+            "Paso 1: Las Shuttles son las naves más baratas y comunes. Buenos para empezar.",
+            "Paso 2: Inventario de 18-30 slots. Estadísticas equilibradas sin destacar en nada.",
+            "Paso 3: Son fáciles de conseguir y reparar. Ideales para desguazar.",
+            "Paso 4: Se encuentran en TODOS los sistemas, en estaciones y planetas.",
+            "Paso 5: Precio típico S-class: 5-15 millones de unidades (muy baratas)."
+          ],
+          "tips": [
+            "Las Shuttles son las mejores naves para desguazar porque son baratas y dan buenos módulos S.",
+            "Son ideales como primera nave o como nave de repuesto para misiones de contrabando.",
+            "No gastes mucho en mejorarlas, son naves temporales."
+          ]
+        },
+        {
+          "title": "Exotic (Exótica)",
+          "difficulty": "hard",
+          "type": "active",
+          "speed": "fast",
+          "tags": ["exótica", "rara", "S-class", "guppy"],
+          "steps": [
+            "Paso 1: Las Exóticas son naves raras que siempre son S-class.",
+            "Paso 2: Existen 2 variantes principales: 'Royal' (con ala plegable, diseño tipo cola de pájaro) y 'Squid' (forma de calamar).",
+            "Paso 3: Inventario de 20-30 slots. Bonus en TODAS las estadísticas (daño, escudo, hiperimpulso).",
+            "Paso 4: Aparecen en sistemas de 3 estrellas (ricos). Muy baja probabilidad (~0.5% por nave que aterriza).",
+            "Paso 5: Método: ve a una estación espacial en sistema rico, espera a que aterricen naves. La exótica es la que tiene diseño llamativo y siempre es S-class.",
+            "Paso 6: Precio típico: 15-35 millones de unidades."
+          ],
+          "tips": [
+            "Las Exóticas Squid son más raras que las Royal. Si ves una, cómprala.",
+            "Cada sistema TIENE UNA exótica específica. Si quieres todas, visita muchos sistemas ricos.",
+            "El truco del 'reloading': guarda en la estación, espera 5-10 min, si no aparece, recarga el auto-guardado.",
+            "Las Exóticas tienen excelente maniobrabilidad y son muy bonitas."
+          ]
+        },
+        {
+          "title": "Solar (Solar)",
+          "difficulty": "medium",
+          "type": "active",
+          "speed": "fast",
+          "tags": ["solar", "pirata", "outlaw", "vela"],
+          "steps": [
+            "Paso 1: Las Solares son naves con velas solares. Exclusivas de sistemas piratas (Outlaw).",
+            "Paso 2: Tienen un bonus de combustible de pulso reducido y regeneración de escudo en combate con las velas abiertas.",
+            "Paso 3: Inventario de 20-30 slots.",
+            "Paso 4: Se encuentran SOLO en estaciones piratas o en planetas dentro de sistemas Outlaw.",
+            "Paso 5: Tienen 3 tipos de proa (Jackal, Marlin, Beetle) y varios tipos de alas/velas.",
+            "Paso 6: Precio típico S-class: 25-45 millones de unidades."
+          ],
+          "tips": [
+            "Las Solares regeneran escudo mientras las velas están abiertas. Útiles en combate prolongado.",
+            "En sistemas Outlaw, las naves tienen más probabilidad de ser S-class (~5% vs 2%).",
+            "Las velas vienen en varios colores. Se pueden personalizar en el terminal de personalización.",
+            "Ideal como nave secundaria para farmear sistemas piratas."
+          ]
+        },
+        {
+          "title": "Living Ship (Nave Viva)",
+          "difficulty": "hard",
+          "type": "active",
+          "speed": "medium",
+          "tags": ["viva", "orgánica", "living", "huevo"],
+          "steps": [
+            "Paso 1: Compra un 'Void Egg' (Huevo del Vacío) en la Unidad de Síntesis de Mercurio por 3,200 Mercurio.",
+            "Paso 2: Viaja a través de la galaxia (warp) con el huevo en el inventario.",
+            "Paso 3: Al hacer warp, el huevo se activará y comenzará la misión 'Melodías Estelares' (Starbirth).",
+            "Paso 4: Sigue la misión: te pedirá que vayas a coordenadas específicas en diferentes planetas.",
+            "Paso 5: La misión dura 5-7 días reales (porque hay temporizadores de 'crecimiento' de 20-24h entre pasos).",
+            "Paso 6: Completa todos los pasos. Tendrás que recoger órganos y almas de viajeros.",
+            "Paso 7: Al final, el huevo eclosionará y te dará las coordenadas de una nave viva específica.",
+            "Paso 8: Ve a la ubicación. Reclama tu nave viva. Es una nave orgánica viviente."
+          ],
+          "tips": [
+            "La misión Starbirth tiene un temporizador de ~22 horas REALES entre etapas. No se puede saltar.",
+            "Hay un 'glitch' para saltar el timer: cambia la fecha de tu sistema operativo al día siguiente.",
+            "Las naves vivas NO tienen tecnología tradicional. Usan 'órganos' (mejoras orgánicas).",
+            "Las mejoras orgánicas se obtienen refinando huevos de naves vivas (segundas naves vivas).",
+            "Las naves vivas no pueden equipar módulos para escáner, por lo que no sirven para farmear unidades escaneando.",
+            "Son naves de exploración y colección, no las más prácticas para el día a día.",
+            "Puedes tener MÚLTIPLES naves vivas comprando más huevos Void Egg."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ships_free_freighter",
+      "title": "Cómo Conseguir un Carguero Gratis",
+      "summary": "El evento de rescate de carguero te da tu primer carguero sin costo. Aquí te explico cómo maximizar esta oportunidad.",
+      "order": 2,
+      "methods": [
+        {
+          "title": "Evento de Rescate de Carguero",
+          "difficulty": "easy",
+          "type": "active",
+          "speed": "medium",
+          "tags": ["carguero", "gratis", "rescate", "freighter"],
+          "steps": [
+            "Paso 1: Juega normalmente hasta las primeras 3 horas de tu partida (tiempo real de juego).",
+            "Paso 2: Después de ~3 horas de juego y 5 warps (saltos), aparecerá tu PRIMER evento de rescate.",
+            "Paso 3: Al saltar a un sistema, verás un carguero siendo atacado por piratas.",
+            "Paso 4: Derrota a los piratas que atacan el carguero. Normalmente 4-8 naves piratas.",
+            "Paso 5: Después de la batalla, aterriza en el carguero (sigue el marcador dorado).",
+            "Paso 6: Habla con el capitán del carguero en el puente de mando.",
+            "Paso 7: El capitán te ofrecerá el carguero GRATIS como recompensa por salvarlos.",
+            "Paso 8: ACEPTA el carguero. Si lo rechazas, no habrá otro gratis (el segundo carguero tampoco será gratis).",
+            "Paso 9: El carguero que te ofrecen es ALEATORIO. Puede ser clase C, B, A o S."
+          ],
+          "tips": [
+            "IMPORTANTE: Para conseguir un carguero S-class gratis, haz esto:",
+            "1. Juega 3 horas seguidas sin parar (el contador se resetea si cierras).",
+            "2. Guarda en la estación espacial JUSTO antes del 5to warp.",
+            "3. Haz el 5to warp. Si ves un carguero Dreadnought o Venator (los más grandes) — genial.",
+            "4. Si la clase del carguero no es S, recarga el autoguardado y prueba en otro sistema.",
+            "5. La probabilidad de S-class depende de la economía del sistema: 3 estrellas = 2%, 2 estrellas = 1%, 1 estrella = 0%.",
+            "6. Este proceso puede tomar horas pero te ahorra 100-300 millones.",
+            "Si aceptas cualquier carguero, el SIGUIENTE evento de rescate (tras 3h + 5 warps más) NO será gratis (costará unidades)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ships_exocraft",
+      "title": "Exocraft y Exomech",
+      "summary": "Vehículos terrestres para exploración, minería y combate. Incluye el exotraje mecánico.",
+      "order": 3,
+      "methods": [
+        {
+          "title": "Los Exocraft: Guía Completa",
+          "difficulty": "medium",
+          "type": "active",
+          "speed": "medium",
+          "tags": ["exocraft", "vehículos", "exploración", "minería"],
+          "steps": [
+            "Paso 1: Consigue los planos de Exocraft del especialista de Exocraft en tu base (ver guía de Bases > Especialistas).",
+            "Paso 2: Tipos de Exocraft:",
+            "   - NÓMADA (Nomad): Vehículo ligero que vuela sobre agua. Ideal para exploración rápida.",
+            "   - ROVER (Roamer): Vehículo mediano, todoterreno. Bueno para exploración general.",
+            "   - COLOSO (Colossus): Vehículo pesado con enorme inventario (42 slots). Ideal para minería y transporte.",
+            "   - COLOSO, MINOTAURO (Minotaur): Exotraje mecánico bípedo. Para combate y terrenos extremos. No necesita la Geobay si tienes el pad de aterrizaje de Minotauro en tu carguero.",
+            "Paso 3: Construye la Geobay correspondiente en tu base o en cualquier planeta.",
+            "Paso 4: Los Exocraft tienen tecnología mejorable: escáner de estructuras, protección climática, velocidad, etc.",
+            "Paso 5: El Minotauro (exomech) se puede personalizar con color, armas y tecnología de combate."
+          ],
+          "tips": [
+            "El Nómada es el mejor para explorar planetas acuáticos: vuela sobre el agua sin problema.",
+            "El Coloso es la nave de carga definitiva para minería planetaria.",
+            "El Minotauro es excelente para farmear centinelas: tiene escudo extra y cañones potentes.",
+            "Construye Geobays en tu carguero y despliega exocrafts en cualquier planeta.",
+            "El escáner del exocraft puede localizar monolitos, portales, edificios, etc. Muy útil para exploración.",
+            "La actualización de Minotauro 'IA Mejorada' (Minotaur AI) permite que te siga automáticamente."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ships_upgrades_priority",
+      "title": "Mejoras de Nave Prioritarias",
+      "summary": "Qué tecnologías comprar primero para tu nave según tu estilo de juego y presupuesto.",
+      "order": 4,
+      "methods": [
+        {
+          "title": "Prioridades de Mejora por Estilo",
+          "difficulty": "easy",
+          "type": "passive",
+          "speed": "fast",
+          "tags": ["mejoras", "prioridades", "tecnología", "nave"],
+          "steps": [
+            "Paso 1: PARA TODOS: Mejora el Hiperimpulso (Hyperdrive) a 3 módulos S. Es esencial para llegar a sistemas de colores (rojo, verde, azul).",
+            "Paso 2: PARA TODOS: Economy Scanner y Conflict Scanner. Saber la economía y nivel de conflicto antes de saltar.",
+            "Paso 3: PARA COMBATE: Infra-Knife Accelerator (Cañón Infra-Cuchillo) + 3 módulos S de daño. Es el arma más potente.",
+            "Paso 4: PARA COMBATE: Escudo de Fase (Phase Shield) y 3 módulos S de escudo para supervivencia.",
+            "Paso 5: PARA EXPLORACIÓN: Impulso de Pulso (Pulse Engine) con 3 módulos S de velocidad. Teletransporte dentro del sistema.",
+            "Paso 6: PARA EXPLORACIÓN: Escáner de Economía (Economy Scanner) prioritario para rutas comerciales.",
+            "Paso 7: PARA PIRATERÍA: Positron Ejector (Cañón de Positrones) con módulos de área para destruir cargueros rápido.",
+            "Paso 8: PARA TODO: Instala los 3 módulos S de escáner (Analysis Visor) en el multitool (no en la nave, pero es la prioridad #0)."
+          ],
+          "tips": [
+            "Máximo 3 módulos S por tecnología en el inventario general + 3 en el tecnológico (si aplica).",
+            "Coloca módulos ADYACENTES para activar bonos de 'adjacency' (colores brillantes alrededor).",
+            "Los módulos de tecnología de contrabando (X-Class) pueden ser mejores que los S-Class, pero son aleatorios.",
+            "Compra módulos en estaciones espaciales de sistemas diferentes (el mismo vendedor da los mismos módulos)."
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+-keep class kotlinx.serialization.** { *; }
+-keepclassmembers class com.nmsguide.app.data.model.** { *; }

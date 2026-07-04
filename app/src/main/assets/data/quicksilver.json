@@ -1,0 +1,136 @@
+{
+  "categoryId": "quicksilver",
+  "articles": [
+    {
+      "id": "quicksilver_daily_missions",
+      "title": "Misiones Diarias del Nexo",
+      "summary": "El método principal para conseguir mercurio. Completa misiones diarias en el Nexo y recibe hasta ~250-300 de Mercurio por misión.",
+      "order": 1,
+      "methods": [
+        {
+          "title": "Misiones Diarias del Nexo (250-300 Mercurio)",
+          "difficulty": "easy",
+          "type": "active",
+          "speed": "medium",
+          "tags": ["mercurio", "nexo", "diario", "misiones"],
+          "steps": [
+            "Paso 1: Ve a la Anomalía (Nexo) pulsando X en el espacio y seleccionando Anomalía.",
+            "Paso 2: Dirígete al terminal de misiones del Nexo, justo detrás de nada (el ser gigante).",
+            "Paso 3: Busca misiones que tengan el icono de Mercurio: son las de recompensa en Quicksilver.",
+            "Paso 4: Las misiones individuales diarias dan ~250-300 Mercurio cada una.",
+            "Paso 5: Hay UNA misión de Mercurio disponible por día por jugador.",
+            "Paso 6: Las misiones típicas incluyen: matar bestias, fotografía planetaria, cazar piratas, recoger objetos específicos.",
+            "Paso 7: Completa la misión y vuelve al Nexo a entregarla.",
+            "Paso 8: Recibirás el Mercurio directamente en tu inventario de monedas."
+          ],
+          "tips": [
+            "Las misiones de fotografía son las más rápidas (~5 minutos).",
+            "Las misiones de 'Alimentar a criaturas' o 'Recoger plantas' también son muy rápidas.",
+            "Si tienes poco tiempo, prioriza las misiones que no requieran saltar a otro sistema.",
+            "El temporizador diario resetea a las 19:00h (hora del Este de EEUU, UTC-5).",
+            "Stackea objetos que piden las misiones (como Mordite) para completarlas más rápido."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quicksilver_helix",
+      "title": "Nada en la Anomalía (150 Mercurio)",
+      "summary": "Un método pasivo diario: dona a la Nada en la Anomalía para recibir Mercurio gratis.",
+      "order": 2,
+      "methods": [
+        {
+          "title": "La Nada - Donación Diaria (150 Mercurio)",
+          "difficulty": "easy",
+          "type": "passive",
+          "speed": "fast",
+          "tags": ["mercurio", "anomalía", "nada", "pasivo"],
+          "steps": [
+            "Paso 1: Ve a la Anomalía.",
+            "Paso 2: Busca a 'nada' (Aeolus) — es el NPC de aspecto misterioso, con capa oscura, en la entrada del Nexo o cerca de los terminales.",
+            "Paso 3: Habla con nada. Te ofrecerá una opción de 'Donar' algo.",
+            "Paso 4: Nada te pedirá donar aleaciones, materiales raros o tecnología.",
+            "Paso 5: Al donar lo que pide, recibirás 150 Mercurio.",
+            "Paso 6: Puedes hacer esto UNA VEZ AL DÍA.",
+            "Paso 7: A veces nada pide objetos caros. Si no tienes, espera al día siguiente que pida algo más barato."
+          ],
+          "tips": [
+            "Si nada pide un objeto muy caro (ej: 3x Fusion Ignitor), no vale la pena. Espera al día siguiente.",
+            "Los objetos que suele pedir con frecuencia: materiales de construcción, polvo de estrellas, cristales de tormenta.",
+            "Mantén un stock de objetos varios en tu carguero para estos casos.",
+            "Este método es 100% pasivo: donas y recibes, sin tener que viajar ni completar misiones."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quicksilver_weekend_events",
+      "title": "Eventos de Fin de Semana",
+      "summary": "Cada fin de semana hay un evento especial en el Nexo que da hasta 1200 Mercurio por completarlo.",
+      "order": 3,
+      "methods": [
+        {
+          "title": "Evento Finde Semanal (~1200 Mercurio)",
+          "difficulty": "medium",
+          "type": "active",
+          "speed": "medium",
+          "tags": ["mercurio", "evento", "finde", "nexo", "semanal"],
+          "steps": [
+            "Paso 1: Conéctate entre viernes y lunes (horario del Este de EEUU).",
+            "Paso 2: Ve a la Anomalía. Verás un marcador especial o mensaje de evento de fin de semana.",
+            "Paso 3: Ve al terminal de misiones del Nexo y selecciona la misión 'Evento de Fin de Semana' (tiene icono de Mercurio más grande).",
+            "Paso 4: El evento suele ser una cadena de pasos: fotografía, minería, construcción o interacción con NPCs.",
+            "Paso 5: Sigue los pasos del evento. Normalmente hay 3 fases en diferentes planetas.",
+            "Paso 6: Completa todas las fases. Al final, vuelve al Nexo a entregar.",
+            "Paso 7: Recibirás ~1200 Mercurio por completar el evento completo.",
+            "Paso 8: A veces también dan nano-módulos, objetos decorativos o incluso naves (como la Golden Vector en eventos históricos)."
+          ],
+          "tips": [
+            "El evento es un poco más largo (30-45 min) pero la recompensa es enorme.",
+            "Puedes hacer el evento en grupo con otros jugadores para que sea más divertido y rápido.",
+            "Si no terminas el evento el fin de semana, se pierde. NO se acumula.",
+            "Algunos eventos tienen requisitos: necesitar cierta tecnología o objetos específicos.",
+            "Los eventos suelen tener temática de temporada (expediciones, celebraciones, etc.)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quicksilver_what_to_buy",
+      "title": "¿Para Qué Sirve el Mercurio?",
+      "summary": "El Mercurio se gasta en la Unidad de Síntesis de Mercurio en la Anomalía. Todo es cosmético y decorativo.",
+      "order": 4,
+      "methods": [
+        {
+          "title": "Catálogo de la Unidad de Síntesis de Mercurio",
+          "difficulty": "easy",
+          "type": "passive",
+          "speed": "fast",
+          "tags": ["mercurio", "cosméticos", "compras", "síntesis"],
+          "steps": [
+            "Paso 1: Ve a la Anomalía.",
+            "Paso 2: Busca la Unidad de Síntesis de Mercurio (Quicksilver Synthesis Companion). Está en la planta baja, cerca de la entrada principal, al lado del mostrador de misiones del Nexo.",
+            "Paso 3: Interactúa con la terminal para ver el catálogo.",
+            "Paso 4: Categorías principales disponibles:",
+            "   - APARIENCIA: Cabezas decorativas (Gek, Vy'keen, Korvax, Viajero, autophage).",
+            "   - MASCOTAS (Egg): Huevos de mascota de la comunidad.",
+            "   - DECORACIÓN DE BASE: Objetos decorativos, luces, banderas, esculturas, alfombras.",
+            "   - GESTOS (Emotes): Bailes, saludos, poses especiales.",
+            "   - VEHÍCULOS ESPECIALES: Personalización de naves, exocraft.",
+            "   - TRAJES: Personalizaciones de exotraje (capas, cascos especiales).",
+            "   - FOGATAS Y JUEGOS: Objetos interactivos para base.",
+            "Paso 5: Los precios van desde 50 hasta 3200 Mercurio. Los objetos más caros suelen ser naves y huevos especiales."
+          ],
+          "tips": [
+            "Prioriza los objetos que realmente usarás. Los huevos de mascota son populares.",
+            "Los gestos (emotes) son baratos (~200-400 Mercurio) y agregan personalidad.",
+            "Las cabezas decorativas cuestan ~800-1200 Mercurio. Buena inversión para cambiar look.",
+            "NO COMPRES: objetos que puedas conseguir en expediciones (son gratis).",
+            "Revisa qué objetos son de EDICIÓN LIMITADA. Algunos solo están disponibles ciertas temporadas.",
+            "Si te falta poco Mercurio para algo, las misiones diarias y la donación a nada suman 400+ por día."
+          ]
+        }
+      ]
+    }
+  ]
+}

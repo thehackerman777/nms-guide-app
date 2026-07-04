@@ -1,0 +1,218 @@
+{
+  "categoryId": "survival",
+  "articles": [
+    {
+      "id": "survival_sentinels",
+      "title": "Centinelas: Tipos y Cómo Farmearlos",
+      "summary": "Los centinelas son los policías robóticos del universo. Aquí te explico cómo enfrentarlos, farmearlos y qué recompensas dan.",
+      "order": 1,
+      "methods": [
+        {
+          "title": "Tipos de Centinelas",
+          "difficulty": "medium",
+          "type": "passive",
+          "speed": "fast",
+          "tags": ["centinelas", "tipos", "información"],
+          "steps": [
+            "Paso 1: Centinela Escáner (Scanner Sentinel): Vuela pasivamente. Si detectas algo ilegal (minería excesiva, flora dañada, fauna asesinada), te alerta.",
+            "Paso 2: Centinela Combatiente (Combat Sentinel): Aparece en oleadas cuando te buscan. Tiene armas láser.",
+            "Paso 3: Centinela Cuadrúpedo (Quad / Walker): Aparece en oleadas 2-3. Tiene cañones y te persigue. El mediano (Quad) es más débil, el grande (Walker) es muy tanque.",
+            "Paso 4: Walker (Caminante): El centinela más grande. Aparece en oleada 4-5. Tiene un cañón láser devastador. Su punto débil son las piernas.",
+            "Paso 5: Centinela Summoner: Aparece en oleadas 2-3. Llama refuerzos. Mátalo primero.",
+            "Paso 6: Centinela Caminante (Walker Dreadnought): Jefe final de oleadas en planetas con centinelas agresivos. Gigante, con escudo y cañón orbital."
+          ],
+          "tips": [
+            "Los patrones de las oleadas: 1-2 combatientes, luego Quad + Summoner, luego más combatientes, luego Walker.",
+            "Si huyes de un planeta, los centinelas te persiguen al espacio con naves centinela.",
+            "En planetas con 'Centinelas Agresivos', no te dejan en paz aunque no hagas nada."
+          ]
+        },
+        {
+          "title": "Cómo Farmear Centinelas (Farming de Módulos)",
+          "difficulty": "medium",
+          "type": "active",
+          "speed": "fast",
+          "tags": ["centinelas", "farming", "combate", "módulos"],
+          "steps": [
+            "Paso 1: Equipa un Multitool con buena arma (Scatter Blaster o Pulse Spitter) y escudos.",
+            "Paso 2: Ve a un planeta con Centinelas Agresivos o a un planeta normal y ataca a un centinela.",
+            "Paso 3: Mata los centinelas en oleadas. Cada oleada da: materiales de reparación (Pugneum, escudos caídos), módulos de mejora caídos.",
+            "Paso 4: Los módulos de mejora de centinelas caídos (Sentinel Upgrade) se venden por 40-90 nanites cada uno.",
+            "Paso 5: Las oleadas difíciles dan módulos S-Class caídos de armas, escudos y exotraje.",
+            "Paso 6: Al matar al Walker o al Dreadnought, recogerás Módulos de Armamento Caminante (Walker Brain) que se usan para fabricar tecnología avanzada.",
+            "Paso 7: También puedes conseguir Objetos de Placa (Salvaged Glass) que se abren para obtener módulos de mejora o nanites."
+          ],
+          "tips": [
+            "El mejor lugar: planetas con Centinelas Agresivos en sistemas de conflicto alto. Más oleadas, más botín.",
+            "Usa el Minotauro con IA: te sigue y dispara automáticamente duplicando tu daño.",
+            "Los módulos S de centinela son aleatorios pero pueden ser mejores que los comprados en estaciones.",
+            "Para farmear rápido, usa el Infra-Knife Accelerator de la nave y haz combate aéreo contra centinelas espaciales.",
+            "NO recolectes Pugneum de los centinelas caídos si no quieres alertar a más (el Pugneum atrae centinelas)."
+          ]
+        },
+        {
+          "title": "Cómo Desactivar Centinelas (Misión de la Torre)",
+          "difficulty": "hard",
+          "type": "active",
+          "speed": "medium",
+          "tags": ["centinelas", "desactivar", "torres", "sistemas"],
+          "steps": [
+            "Paso 1: Busca una Torre de Centinela (Sentinel Pillar) en un planeta. Se ven como grandes pilares metálicos en el paisaje.",
+            "Paso 2: Entra a la torre. Habrá terminales de control.",
+            "Paso 3: Introduce materiales (a veces requiere materiales específicos: Pugneum, etc.).",
+            "Paso 4: Desactiva el control de centinelas del planeta. Temporalmente no habrá centinelas.",
+            "Paso 5: También puedes destruir las campanas o antenas de la torre para dañar el sistema permanentemente.",
+            "Paso 6: Encontrar torres de centinelas: usa mapas de 'Punto de Interés' (Cartographer maps) o el escáner del exocraft.",
+            "Paso 7: Las torres desactivadas reinician sus centinelas después de un tiempo (varias horas de juego)."
+          ],
+          "tips": [
+            "Una torre desactivada es excelente para minar sin interrupciones o explorar con calma.",
+            "En planetas de Expedición o misiones del Nexo, desactivar centinelas puede ahorrarte tiempo.",
+            "No te preocupes por los centinelas espaciales: solo aparecen si te buscan desde el planeta."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "survival_pirate_systems",
+      "title": "Sistemas Piratas y Contrabando",
+      "summary": "Los sistemas Outlaw (piratas) ofrecen riesgos y recompensas únicas. Aquí cómo sobrevivir y prosperar en ellos.",
+      "order": 2,
+      "methods": [
+        {
+          "title": "Navegando Sistemas Piratas (Outlaw)",
+          "difficulty": "medium",
+          "type": "active",
+          "speed": "fast",
+          "tags": ["pirata", "outlaw", "contrabando", "supervivencia"],
+          "steps": [
+            "Paso 1: Identifica sistemas Outlaw en el mapa galáctico: tienen un icono de calavera.",
+            "Paso 2: Al entrar, NO hay centinelas. Puedes hacer piratería sin miedo a la policía.",
+            "Paso 3: Pero hay PIRATAS que te atacarán si llevas carga valiosa. Siempre ve armado.",
+            "Paso 4: La estación pirata tiene: tienda de módulos de contrabando X-Class (los más potentes pero aleatorios), Scrap Dealer, y misiones de contrabando.",
+            "Paso 5: Los módulos X-Class de contrabando pueden ser MEJORES que los S-Class pero son aleatorios (algunos son peores que C-class).",
+            "Paso 6: Las misiones de contrabando del Nexo suelen requerir ir a sistemas Outlaw y traer objetos ilegales.",
+            "Paso 7: Cuidado al SALIR del sistema: los centinelas galácticos te escanean. Si llevas contrabando, te atacarán."
+          ],
+          "tips": [
+            "Compra contrabando barato en Outlaw, llévalo a tu carguero, teletranspórtate a base en sistema normal, vende.",
+            "En sistemas Outlaw puedes encontrar naves Solares exclusivas (con velas).",
+            "Las misiones de caza de piratas en Outlaw son una buena fuente de nanites y unidades.",
+            "No ataques a las naves de carga amigas si no quieres ser marcado como pirata por otras facciones."
+          ]
+        },
+        {
+          "title": "Cómo Evitar a los Piratas",
+          "difficulty": "easy",
+          "type": "passive",
+          "speed": "fast",
+          "tags": ["piratas", "evitar", "defensa"],
+          "steps": [
+            "Paso 1: Si te atacan piratas en el espacio, acelera hacia la estación espacial más cercana.",
+            "Paso 2: Usa el Impulso de Pulso para escapar. Los piratas no te siguen si sales del sistema.",
+            "Paso 3: Mejora los escudos de tu nave con 3 módulos S de escudo.",
+            "Paso 4: Si te interceptan al warp, las naves piratas aparecen en grupo. Usa cohetes de distracción (Flare) si tienes.",
+            "Paso 5: Viaja en grupos con otros jugadores: los piratas son menos propensos a atacar grupos.",
+            "Paso 6: Algunos sistemas tienen más piratas que otros. Revisa el nivel de conflicto antes de saltar."
+          ],
+          "tips": [
+            "Los sistemas con conflicto ALTO tienen más piratas. Evítalos si llevas carga valiosa.",
+            "La tecnología 'Phase Shield' (Escudo de Fase) también protege contra ataques de piratas.",
+            "Si te atacan, prioriza matar al líder pirata (marcado con icono especial) — los demás huyen.",
+            "Puedes sobornar piratas con 200,000 unidades si no quieres pelear (opción de diálogo)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "survival_planet_hazards",
+      "title": "Peligros Planetarios",
+      "summary": "Climas extremos, tormentas, fauna hostil y cómo sobrevivir en cualquier planeta.",
+      "order": 3,
+      "methods": [
+        {
+          "title": "Climas Extremos y Tormentas",
+          "difficulty": "easy",
+          "type": "passive",
+          "speed": "fast",
+          "tags": ["clima", "tormentas", "supervivencia", "protección"],
+          "steps": [
+            "Paso 1: Tipos de clima extremo:",
+            "   - CALOR EXTREMO: Escudo térmico de calor necesario. Las tormentas elevan la temperatura letalmente.",
+            "   - FRÍO EXTREMO: Escudo térmico de frío necesario. Las tormentas congelan rápido.",
+            "   - TÓXICO: Escudo de protección tóxica. Lluvia ácida.",
+            "   - RADIACTIVO: Escudo de protección radiológica. Radiación constante.",
+            "Paso 2: El exotraje tiene protección base de ~30 segundos en condiciones extremas SIN mejoras.",
+            "Paso 3: Instala módulos S de protección climática: Escudo Térmico, Protección Tóxica, etc.",
+            "Paso 4: 3 módulos S de protección climática + el módulo base dan ~4-5 minutos de protección en tormentas.",
+            "Paso 5: Durante las tormentas, busca refugio: cuevas, edificios, tu nave, o construye una base rápida.",
+            "Paso 6: Las tormentas extremas suelen durar 1-3 minutos. Espera dentro de un edificio o cueva.",
+            "Paso 7: Los Cristales de Tormenta (Storm Crystals) solo aparecen DURANTE tormentas extremas. Recógelos para vender (valen ~150k cada uno)."
+          ],
+          "tips": [
+            "Las cuevas son refugios seguros contra cualquier clima y no necesitan construirse.",
+            "Puedes cavar un agujero con el Terrain Manipulator y esconderte ahí si no hay cuevas cerca.",
+            "El exotraje con mejoras de escudo de protección (Shield Lattice) también protege del clima.",
+            "Los planetas con tormentas extremas suelen tener Actived Indium. La tormenta es una señal de recurso valioso.",
+            "Cristales de Tormenta: usa el visor para localizarlos durante la tormenta, son brillantes y emiten electricidad."
+          ]
+        },
+        {
+          "title": "Fauna Hostil",
+          "difficulty": "easy",
+          "type": "active",
+          "speed": "fast",
+          "tags": ["fauna", "hostil", "depredadores", "defensa"],
+          "steps": [
+            "Paso 1: Identifica fauna hostil: tienen un icono de calavera roja al escanearlas.",
+            "Paso 2: Los depredadores más comunes: bestias grandes parecidas a dinosaurios, felinos agresivos, insectos gigantes.",
+            "Paso 3: Si te atacan, usa el Scatter Blaster (escopeta) para matarlos rápido.",
+            "Paso 4: Algunos depredadores son venenosos y dañan tu escudo + salud.",
+            "Paso 5: Puedes huir: los depredadores terrestres no suelen perseguirte lejos.",
+            "Paso 6: Construir un refugio rápido o subir a una roca alta te protege de depredadores terrestres.",
+            "Paso 7: En planetas acuáticos, la fauna marina puede ser extremadamente agresiva. Ve armado.",
+            "Paso 8: Las criaturas voladoras (insectos, aves) rara vez atacan. Las más peligrosas son las terrestres grandes."
+          ],
+          "tips": [
+            "Alimenta a los depredadores con carne (Mordite o Creature Pellets) para que te sigan en lugar de atacarte.",
+            "Si necesitas Mordite para fabricar, los depredadores dan mucho al matarlos.",
+            "En modo Permadeath/Supervivencia, los depredadores hacen MÁS daño. Ten cuidado en planetas nuevos.",
+            "Los planetas con 'Fauna Agresiva' en la descripción tienen depredadores por todos lados."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "survival_permadeath_tips",
+      "title": "Cómo Sobrevivir en Planetas Extremos (y Permadeath)",
+      "summary": "Consejos avanzados de supervivencia para planetas mortales y modos de juego duros.",
+      "order": 4,
+      "methods": [
+        {
+          "title": "Supervivencia en Planetas Extremos",
+          "difficulty": "hard",
+          "type": "active",
+          "speed": "slow",
+          "tags": ["extremo", "permadeath", "supervivencia", "consejos"],
+          "steps": [
+            "Paso 1: Prioriza las mejoras de exotraje ANTES que cualquier otra cosa. Escudo de protección y escudo térmico.",
+            "Paso 2: Lleva SIEMPRE materiales de recarga: Sodio (para recargar escudo), Oxígeno (para recargar protección de vida).",
+            "Paso 3: Nunca salgas de tu nave sin tener una ruta de regreso clara (marcadores visibles).",
+            "Paso 4: En planetas con tormentas, NO vueles en tu nave durante la tormenta: reduce la visibilidad a cero.",
+            "Paso 5: Construye pequeñas bases o refugios en puntos estratégicos del planeta.",
+            "Paso 6: Los Unidades de Salvamento (Save Beacons) te permiten guardar manualmente. Ponlos en lugares seguros.",
+            "Paso 7: En Permadeath: cada muerte es permanente. NO arriesgues. No explores planetas desconocidos sin preparación.",
+            "Paso 8: La misión de 'Tormenta' en planetas extremos: ponte bajo techo durante las tormentas."
+          ],
+          "tips": [
+            "En Permadeath, la recarga de escudos consume SODIO. Lleva 9999 Sodio siempre.",
+            "Los planetas con tormentas de Fuego (Firestorms) son los más peligrosos. Evítalos.",
+            "Si estás en Permadeath y ves un planeta con 'Boiling Puddles' o 'Acid Rain', no aterrices.",
+            "Actualiza el Exotraje al máximo: 3 módulos S de escudo + 3 módulos S de protección de vida.",
+            "Los módulos de 'Efecto Recarga' que regeneran escudo automáticamente son vitales."
+          ]
+        }
+      ]
+    }
+  ]
+}

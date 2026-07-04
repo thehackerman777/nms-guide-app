@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NMS Guide</string>
+    <string name="tab_guides">Guías</string>
+    <string name="tab_search">Buscar</string>
+    <string name="tab_favorites">Favoritos</string>
+    <string name="tab_settings">Ajustes</string>
+    <string name="search_hint">Buscar guías, recetas, planetas…</string>
+    <string name="no_favorites">Aún no tienes favoritos</string>
+    <string name="no_favorites_desc">Explora las guías y guarda tus artículos favoritos para tenerlos siempre a mano.</string>
+    <string name="no_results">Sin resultados</string>
+    <string name="no_results_desc">No encontramos nada para «%s». Intenta con otras palabras.</string>
+    <string name="difficulty_facil">Fácil</string>
+    <string name="difficulty_media">Media</string>
+    <string name="difficulty_dificil">Difícil</string>
+    <string name="difficulty_extremo">Extremo</string>
+    <string name="setting_version">Versión</string>
+    <string name="setting_credits">Créditos</string>
+    <string name="setting_github">GitHub</string>
+    <string name="setting_share">Compartir app</string>
+    <string name="setting_share_text">¡Descubre NMS Guide — la guía offline definitiva para No Man\'s Sky!</string>
+    <string name="app_version">1.0.0</string>
+    <string name="credits_text">Desarrollada con ❤️ por la comunidad de viajeros.\n\nDatos basados en el universo de No Man\'s Sky de Hello Games.\n\nIconos por Emoji & Material Design.</string>
+    <string name="github_url">https://github.com/giutaca/nms-guide-app</string>
+</resources>

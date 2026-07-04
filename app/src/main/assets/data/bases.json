@@ -1,0 +1,232 @@
+{
+  "categoryId": "bases",
+  "articles": [
+    {
+      "id": "bases_getting_started",
+      "title": "Cómo Empezar una Base",
+      "summary": "Los primeros pasos para construir tu base, desde el Computer Base hasta el primer refugio funcional.",
+      "order": 1,
+      "methods": [
+        {
+          "title": "Tu Primera Base",
+          "difficulty": "easy",
+          "type": "active",
+          "speed": "fast",
+          "tags": ["base", "principiante", "construcción"],
+          "steps": [
+            "Paso 1: Consigue el 'Computer Base' (Base Computer). Lo obtienes al inicio de la misión 'Construye una Base'.",
+            "Paso 2: Coloca el Computer Base en un lugar que te guste. Preferiblemente en un planeta pacífico con recursos cercanos.",
+            "Paso 3: Interactúa con el Computer Base y selecciona 'Reclamar Base'.",
+            "Paso 4: Construye tu primer refugio: una habitación prefabricada (Cuboid Room) del menú de construcción.",
+            "Paso 5: Coloca un generador de energía (Biofuel Reactor) o paneles solares con baterías.",
+            "Paso 6: Coloca una puerta para conectarla a la energía.",
+            "Paso 7: Construye un Teleport (Teletransporte) y conéctalo a la red eléctrica. Ya puedes viajar desde/hacia esta base.",
+            "Paso 8: Coloca un Almacenamiento (Storage Container) para guardar objetos.",
+            "Paso 9: Construye una Terminal de Comercio Galáctico (Galactic Trade Terminal) para comprar/vender desde tu base.",
+            "Paso 10: ¡Ya tienes una base funcional! Ahora puedes expandirla con más habitaciones y decoración."
+          ],
+          "tips": [
+            "Elige un planeta bonito. Vas a pasar tiempo en tu base.",
+            "No construyas en planetas con tormentas extremas para tu primera base.",
+            "Cerca del agua es bonito y práctico (recursos marinos).",
+            "Puedes tener hasta 400 bases por cuenta (límite práctico menor por rendimiento).",
+            "La primera base no tiene que ser grande. Pequeña y funcional es mejor."
+          ]
+        },
+        {
+          "title": "Elección de Ubicación Estratégica",
+          "difficulty": "medium",
+          "type": "passive",
+          "speed": "fast",
+          "tags": ["ubicación", "estrategia", "recursos"],
+          "steps": [
+            "Paso 1: Busca un lugar con recursos cercanos: depósitos de minerales, gas, o plantas.",
+            "Paso 2: Un lugar cerca de un Portal es excelente para el end-game.",
+            "Paso 3: Verifica que haya una fuente de energía electromagnética cercana (Electromagnetic Hotspot).",
+            "Paso 4: Prefiere planetas con clima benigno (sin tormentas, sin ácido, sin radiactividad).",
+            "Paso 5: Si es para granja, busca depósitos de recursos de clase A o S con el visor de análisis.",
+            "Paso 6: Planetas con burbujas, pasto brillante o paisajes únicos son bonitos pero no prácticos.",
+            "Paso 7: La gravedad NO afecta la construcción. Puedes construir en el aire."
+          ],
+          "tips": [
+            "Usa el modo de cámara (build camera) para ver el terreno desde arriba y planificar.",
+            "Puedes construir dentro de montañas o en el fondo del mar si quieres algo único.",
+            "Las bases cerca de agua tienen vistas espectaculares pero cuidado con terrenos que cambian.",
+            "Construye cerca de un portal de la Red de Teletransporte para moverte rápido entre bases."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bases_specialists",
+      "title": "Terminales de Especialistas",
+      "summary": "Recluta especialistas en la estación espacial para desbloquear tecnologías y misiones exclusivas.",
+      "order": 2,
+      "methods": [
+        {
+          "title": "Los 5 Especialistas y sus Funciones",
+          "difficulty": "medium",
+          "type": "active",
+          "speed": "medium",
+          "tags": ["especialistas", "terminales", "misiones", "tecnología"],
+          "steps": [
+            "Paso 1: CONSTRUCCIÓN (Construction): Desbloquea estructuras y decoraciones básicas. Se recluta en estaciones de sistemas de construcción.",
+            "Paso 2: CIENTÍFICO (Scientist): Desbloquea tecnología de exotraje y multitool. Recluta en sistemas de ciencia o tecnología.",
+            "Paso 3: ARMERO (Armorer): Desbloquea armas y módulos de combate. Recluta en sistemas de combate o Vy'keen.",
+            "Paso 4: AGRÍCOLA (Farmer): Desbloquea cultivos y recetas de cocina. Recluta en sistemas agrícolas o Gek.",
+            "Paso 5: EXOCRAFT: Desbloquea vehículos terrestres y sus mejoras. Recluta en sistemas de exocraft o Vy'keen.",
+            "Paso 6: Ve a la estación espacial de un sistema que tenga el especialista que necesitas (cada sistema tiene uno dependiendo de la economía).",
+            "Paso 7: Busca al NPC con el icono de especialista (tiene un marco hexagonal brillante) y contrátalo por 50 unidades.",
+            "Paso 8: Vuelve a tu base y coloca la terminal correspondiente (Construction Terminal, Science Terminal, etc.).",
+            "Paso 9: El especialista aparecerá en la terminal y te dará misiones. Complétalas para desbloquear tecnologías y planos."
+          ],
+          "tips": [
+            "Completa las misiones de CADA especialista para desbloquear TODO el árbol tecnológico.",
+            "El Científico desbloquea la tecnología de 'Escáner de Análisis' más potente.",
+            "El Armero da acceso a las armas más potentes del multitool.",
+            "El Agrícola desbloquea las recetas de cocina (Cronos en la Anomalía).",
+            "Puedes tener todos los especialistas en UNA sola base (pon todas las terminales juntas)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bases_resource_farms",
+      "title": "Granjas de Recursos",
+      "summary": "Automatiza la producción de gases, minerales y plantas para fabricar objetos de alto valor.",
+      "order": 3,
+      "methods": [
+        {
+          "title": "Granja de Gas (Extractores de Gas)",
+          "difficulty": "medium",
+          "type": "passive",
+          "speed": "medium",
+          "tags": ["gas", "extractor", "automatización", "sulphurine", "nitrogen", "radon"],
+          "steps": [
+            "Paso 1: Busca un planeta con el gas que necesitas en la descripción (Sulphurine, Nitrogen, o Radon).",
+            "Paso 2: Usa el visor de análisis para localizar un 'Gas Hotspot' de clase S, A o B.",
+            "Paso 3: Construye la base cerca del hotspot.",
+            "Paso 4: Coloca un Extractor de Gas (Gas Extractor) sobre el hotspot.",
+            "Paso 5: Conecta con tuberías (Supply Pipes) a Depósitos de Gas (Gas Storage).",
+            "Paso 6: Alimenta el extractor con energía (200kPs mínimo por extractor).",
+            "Paso 7: Más extractores = más producción. 5 extractores en hotspot S producen ~5000 unidades/24h.",
+            "Paso 8: Vuelve periódicamente a recoger el gas acumulado.",
+            "Paso 9: Usos del gas: fabricar Thermik Condensate (Sulphurine), Enriched Carbon (Nitrogen), Radon → Cyro-Pump."
+          ],
+          "tips": [
+            "Los 3 gases se necesitan para fabricar Stasis Device y Fusion Ignitor.",
+            "Construye 3 bases separadas, una para cada gas, o 1 base si encuentras los 3 hotspot cercanos.",
+            "Los depósitos de gas tienen capacidad de 250 unidades. Construye 5-10 por extractor.",
+            "Puedes conectar múltiples extractores a los mismos depósitos."
+          ]
+        },
+        {
+          "title": "Granja de Minerales (Extractores de Mineral)",
+          "difficulty": "medium",
+          "type": "passive",
+          "speed": "slow",
+          "tags": ["mineral", "extractor", "minería", "indio", "cobre"],
+          "steps": [
+            "Paso 1: Busca un planeta con el mineral que quieres extraer (Indio Activado, Cobre, etc.).",
+            "Paso 2: Localiza un 'Mineral Hotspot' de clase S, A o B con el visor.",
+            "Paso 3: Construye base cerca del hotspot.",
+            "Paso 4: Coloca Extractores de Mineral (Mineral Extractor) sobre el hotspot.",
+            "Paso 5: Conecta los extractores con tuberías a Depósitos de Mineral (Supply Depots).",
+            "Paso 6: Conecta la energía: los extractores consumen 50kPs cada uno.",
+            "Paso 7: Recoge el mineral de los depósitos periódicamente.",
+            "Paso 8: Vende o refina el mineral según tus necesidades."
+          ],
+          "tips": [
+            "El Indio Activado (Activated Indium) es el más rentable para vender (~950u/unidad).",
+            "Los hotspot S producen más mineral por hora que los A o B.",
+            "No pongas más de 10 extractores en el mismo hotspot o el rendimiento por extractor baja.",
+            "Usa el Indio para combustible de guerra de hiperimpulso (Hyperdrive)."
+          ]
+        },
+        {
+          "title": "Granja de Plantas (Cultivos)",
+          "difficulty": "easy",
+          "type": "passive",
+          "speed": "medium",
+          "tags": ["plantas", "cultivo", "agricultura", "bio"],
+          "steps": [
+            "Paso 1: Consigue los planos de cultivos del especialista agrícola (Farmer).",
+            "Paso 2: Las plantas básicas que necesitas:",
+            "   - Solanio (Solanium): Planeta caliente. Usado en recetas de cocina y fabricación.",
+            "   - Fungussía (Fungal Mould): Planeta tóxico. Base para componentes de cocina.",
+            "   - Gamma Weed: Planeta radiactivo. Para fabricación de componentes.",
+            "   - Frostwort (Hierba Escarcha): Planeta helado. Necesaria para recetas de cocina.",
+            "   - Star Bulb (Bulbo Estelar): Planeta templado. Esencial para fabricación.",
+            "Paso 3: Construye un invernadero (habitat con techo de cristal) o cultiva al aire libre si el clima lo permite.",
+            "Paso 4: Planta las semillas (compradas o fabricadas) en el suelo o en macetas (Hydroponic Tray).",
+            "Paso 5: Cada planta requiere 1 unidad de espacio y produce cada 2-4 horas reales.",
+            "Paso 6: Cosecha cada vez que visites tu base."
+          ],
+          "tips": [
+            "Puedes plantar plantas de clima frío en planeta caliente dentro de habitaciones con control climático (nunca he probado si funciona así, mejor planta en el planeta nativo).",
+            "Las macetas (Hydroponic Tray) necesitan suministro de energía constante.",
+            "Frostwort crece mejor en planetas helados. No necesita energía si está al aire libre.",
+            "Cultiva plantas que necesites para fabricar objetos de alto valor (Stasis Device)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bases_energy",
+      "title": "Energía Solar vs Electromagnética",
+      "summary": "Dos sistemas de generación de energía para tu base. Cuál elegir según tu situación.",
+      "order": 4,
+      "methods": [
+        {
+          "title": "Energía Solar con Baterías",
+          "difficulty": "easy",
+          "type": "active",
+          "speed": "fast",
+          "tags": ["solar", "energía", "paneles", "baterías"],
+          "steps": [
+            "Paso 1: Los paneles solares producen energía solo de día (05:00-21:00 en el planeta).",
+            "Paso 2: Las baterías almacenan energía durante el día para usarla de noche.",
+            "Paso 3: Regla general: 1 panel + 1 batería por cada 50 kPs de consumo de tu base.",
+            "Paso 4: Para una base pequeña (teleport + puertas + luces): 2-3 paneles + 2-3 baterías.",
+            "Paso 5: Para una granja grande (10 extractores + 5 depósitos): necesitas 15-20 paneles + 10 baterías.",
+            "Paso 6: Conecta: Panel → Cable → Batería → Cable → Consumidores.",
+            "Paso 7: Los paneles se pueden colocar en el tejado de tu base para ahorrar espacio.",
+            "Paso 8: Las baterías se pueden colocar en interiores o exteriores."
+          ],
+          "tips": [
+            "Los paneles solares funcionan en TODOS los planetas (incluso en tormentas extremas).",
+            "Coloca los paneles en lugares altos y despejados para máxima eficiencia.",
+            "Las baterías se descargan si no hay suficiente producción solar. Calcula bien.",
+            "La energía solar es la opción más sencilla para bases pequeñas y medianas.",
+            "Si tu base está en un planeta con ciclos día/noche largos, necesitarás más baterías."
+          ]
+        },
+        {
+          "title": "Energía Electromagnética (Generador EM)",
+          "difficulty": "medium",
+          "type": "active",
+          "speed": "medium",
+          "tags": ["electromagnética", "energía", "generador", "avanzado"],
+          "steps": [
+            "Paso 1: Busca un 'Electromagnetic Hotspot' (Punto Caliente Electromagnético) con el visor de análisis.",
+            "Paso 2: Clasificación: S (mejor), A, B, C (peor). Un hotspot S da ~300-500 kPs por generador.",
+            "Paso 3: Construye el Generador Electromagnético (EM Generator) sobre el hotspot.",
+            "Paso 4: Necesitas 50 Cobre + 50 Polvo de Metal para fabricar cada generador.",
+            "Paso 5: Conecta el generador a tu base con cables. La distancia máxima es de ~500u sin señal.",
+            "Paso 6: El generador produce energía 24/7, sin importar el clima o la hora del día.",
+            "Paso 7: Si el hotspot está lejos de tu base, necesitas colocar 'postes de energía' (cada 50u de cable se necesita un poste).",
+            "Paso 8: Un hotspot S puede alimentar una base grande con 10+ extractores sin problema."
+          ],
+          "tips": [
+            "La energía EM es superior a la solar: produce 24/7 sin baterías.",
+            "Para bases grandes (fábricas de Stasis Device), la energía EM es OBLIGATORIA.",
+            "Puedes combinar EM + Solar: EM como fuente principal y solar como respaldo.",
+            "Si el hotspot está a más de 300u de tu base, considera construir la base cerca del hotspot.",
+            "Un hotspot de clase S produce suficiente energía para una base de 10 extractores de gas/mineral.",
+            "Los hotspots se encuentran con el visor en modo 'Superficie' → 'Puntos de Energía'."
+          ]
+        }
+      ]
+    }
+  ]
+}
