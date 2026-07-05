@@ -1,4 +1,7 @@
 package com.nmsguide.app.ui.screens
+import androidx.compose.material3.ExperimentalMaterial3Api
+
+@OptIn(ExperimentalMaterial3Api::class)
 
 import android.content.Intent
 import androidx.compose.foundation.layout.*
