@@ -45,10 +45,7 @@ fun GuideCard(
     Card(
         modifier = modifier
             .fillMaxWidth()
-            .clickable(
-                interactionSource = remember { MutableInteractionSource() },
-                indication = null
-            ) {
+            .clickable {
                 onClick()
             },
         shape = RoundedCornerShape(16.dp),

@@ -114,7 +114,7 @@ fun DetailScreen(
                 Spacer(modifier = Modifier.height(8.dp))
 
                 // Divisor decorativo
-                HorizontalDivider(
+                Divider(
                     color = NmsGray700,
                     thickness = 1.dp,
                     modifier = Modifier.padding(vertical = 8.dp)

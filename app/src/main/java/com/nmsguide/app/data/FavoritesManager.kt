@@ -40,7 +40,7 @@ class FavoritesManager(private val context: Context) {
     suspend fun toggleFavorite(articleId: String) {
         context.dataStore.edit { prefs ->
             val raw = prefs[FAVORITES_KEY] ?: ""
-            val current = if (raw.isEmpty()) emptySet()
+            val current = if (raw.isEmpty()) mutableSetOf()
             else raw.split(SEPARATOR).filter { it.isNotBlank() }.toMutableSet()
 
             if (current.contains(articleId)) {

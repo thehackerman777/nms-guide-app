@@ -67,7 +67,7 @@ fun FavoritesScreen(
                     ArticleCard(
                         article = article,
                         onClick = { onArticleClick(article.id) },
-                        modifier = Modifier.animateItem()
+                        modifier = Modifier.animateItemPlacement()
                     )
                 }
 

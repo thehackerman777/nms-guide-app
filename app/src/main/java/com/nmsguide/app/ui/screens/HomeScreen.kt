@@ -87,7 +87,7 @@ fun HomeScreen(
                     GuideCard(
                         category = category,
                         onClick = { onCategoryClick(category.id) },
-                        modifier = Modifier.animateItem()
+                        modifier = Modifier.animateItemPlacement()
                     )
                 }
 

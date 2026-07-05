@@ -211,7 +211,7 @@ private fun BottomNavBar(
     NavigationBar(
         containerColor = NmsSurface,
         contentColor = NmsTextPrimary,
-        tonalElevation = androidx.compose.ui.unit.dp.times(0) // sin elevación extra
+        tonalElevation = 0.dp
     ) {
         bottomNavItems.forEach { item ->
             val selected = currentRoute == item.route
