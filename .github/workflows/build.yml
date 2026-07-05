@@ -1,14 +1,15 @@
-name: Build APK
+name: Build & Release
 
 on:
   push:
-    branches: [main, master, develop]
-  pull_request:
-    branches: [main, master]
+    branches: [main]
+  push:
+    tags:
+      - 'v*'
 
 jobs:
   build:
-    name: Build Debug APK
+    name: Build APK
     runs-on: ubuntu-latest
 
     steps:
@@ -24,33 +25,43 @@ jobs:
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@v4
 
-      - name: Decode keystore (for release)
-        if: github.ref == 'refs/heads/main'
-        env:
-          KEYSTORE_BASE64: ${{ secrets.KEYSTORE_BASE64 }}
-        run: |
-          if [ -n "$KEYSTORE_BASE64" ]; then
-            echo "$KEYSTORE_BASE64" | base64 -d > app/keystore.jks
-          fi
-
-      - name: Build with Gradle
+      - name: Build Debug APK
         run: ./gradlew assembleDebug
 
-      - name: Upload Debug APK
+      - name: Upload Debug APK (artifact)
         uses: actions/upload-artifact@v4
         with:
           name: nms-guide-debug
           path: app/build/outputs/apk/debug/*.apk
-          retention-days: 30
 
-  lint:
-    name: Lint Check
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-java@v4
+      # ── Release: solo cuando hay TAG v* ──
+      - name: Build Release APK (signed with debug key)
+        if: startsWith(github.ref, 'refs/tags/v')
+        run: ./gradlew assembleRelease
+
+      - name: Rename APK for release
+        if: startsWith(github.ref, 'refs/tags/v')
+        run: |
+          mv app/build/outputs/apk/release/app-release-unsigned.apk \
+             app/build/outputs/apk/release/NMS-Guide-${{ github.ref_name }}.apk
+
+      - name: Create GitHub Release
+        if: startsWith(github.ref, 'refs/tags/v')
+        uses: softprops/action-gh-release@v2
         with:
-          java-version: '17'
-          distribution: 'temurin'
-      - uses: gradle/actions/setup-gradle@v4
-      - run: ./gradlew lint
+          name: "NMS Guide ${{ github.ref_name }}"
+          body: |
+            ## 🚀 NMS Guide ${{ github.ref_name }}
+
+            ### 📥 Descargar
+            El APK está adjunto a esta release.
+
+            ### 📝 Changelog
+            Ver [CHANGELOG.md](CHANGELOG.md) para detalles.
+
+            ### 💡 Instalación
+            1. Descarga el APK
+            2. En Android: Ajustes → Seguridad → Permitir apps de orígenes desconocidos
+            3. Abre el archivo APK e instala
+          files: app/build/outputs/apk/release/NMS-Guide-*.apk
+          generate_release_notes: true
