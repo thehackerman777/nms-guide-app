@@ -3,7 +3,6 @@ name: Build & Release
 on:
   push:
     branches: [main]
-  push:
     tags:
       - 'v*'
 
@@ -28,18 +27,18 @@ jobs:
       - name: Build Debug APK
         run: ./gradlew assembleDebug
 
-      - name: Upload Debug APK (artifact)
+      - name: Upload Debug APK
         uses: actions/upload-artifact@v4
         with:
           name: nms-guide-debug
           path: app/build/outputs/apk/debug/*.apk
 
-      # ── Release: solo cuando hay TAG v* ──
-      - name: Build Release APK (signed with debug key)
+      # ── Solo cuando hay TAG v* ──
+      - name: Build Release APK
         if: startsWith(github.ref, 'refs/tags/v')
         run: ./gradlew assembleRelease
 
-      - name: Rename APK for release
+      - name: Rename APK
         if: startsWith(github.ref, 'refs/tags/v')
         run: |
           mv app/build/outputs/apk/release/app-release-unsigned.apk \
@@ -53,15 +52,11 @@ jobs:
           body: |
             ## 🚀 NMS Guide ${{ github.ref_name }}
 
-            ### 📥 Descargar
-            El APK está adjunto a esta release.
+            APK listo para descargar e instalar.
 
-            ### 📝 Changelog
-            Ver [CHANGELOG.md](CHANGELOG.md) para detalles.
-
-            ### 💡 Instalación
-            1. Descarga el APK
-            2. En Android: Ajustes → Seguridad → Permitir apps de orígenes desconocidos
+            ### 📥 Instalación
+            1. Descarga el APK abajo
+            2. En Android: Ajustes → Seguridad → Orígenes desconocidos
             3. Abre el archivo APK e instala
           files: app/build/outputs/apk/release/NMS-Guide-*.apk
           generate_release_notes: true
