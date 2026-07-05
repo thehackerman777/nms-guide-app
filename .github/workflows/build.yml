@@ -24,27 +24,23 @@ jobs:
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@v4
 
-      - name: Build Debug APK
+      - name: Build APK (debug)
         run: ./gradlew assembleDebug
 
-      - name: Upload Debug APK
-        uses: actions/upload-artifact@v4
-        with:
-          name: nms-guide-debug
-          path: app/build/outputs/apk/debug/*.apk
-
-      # ── Solo cuando hay TAG v* ──
-      - name: Build Release APK
-        if: startsWith(github.ref, 'refs/tags/v')
-        run: ./gradlew assembleRelease
-
-      - name: Rename APK
+      - name: Rename APK for release
         if: startsWith(github.ref, 'refs/tags/v')
         run: |
-          mv app/build/outputs/apk/release/app-release-unsigned.apk \
-             app/build/outputs/apk/release/NMS-Guide-${{ github.ref_name }}.apk
+          cp app/build/outputs/apk/debug/app-debug.apk \
+             app/build/outputs/apk/debug/NMS-Guide-${{ github.ref_name }}.apk
 
-      - name: Create GitHub Release
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: nms-guide-apk
+          path: |
+            app/build/outputs/apk/debug/app-debug.apk
+
+      - name: Create GitHub Release (tag only)
         if: startsWith(github.ref, 'refs/tags/v')
         uses: softprops/action-gh-release@v2
         with:
@@ -58,5 +54,6 @@ jobs:
             1. Descarga el APK abajo
             2. En Android: Ajustes → Seguridad → Orígenes desconocidos
             3. Abre el archivo APK e instala
-          files: app/build/outputs/apk/release/NMS-Guide-*.apk
+          files: app/build/outputs/apk/debug/NMS-Guide-*.apk
           generate_release_notes: true
+          makeLatest: true
