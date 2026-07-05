@@ -20,6 +20,6 @@
     <string name="setting_share">Compartir app</string>
     <string name="setting_share_text">¡Descubre NMS Guide — la guía offline definitiva para No Man\'s Sky!</string>
     <string name="app_version">1.0.0</string>
-    <string name="credits_text">Desarrollada con ❤️ por la comunidad de viajeros.\n\nDatos basados en el universo de No Man\'s Sky de Hello Games.\n\nIconos por Emoji & Material Design.</string>
+    <string name="credits_text">Desarrollada con ❤️ por la comunidad de viajeros.\n\nDatos basados en el universo de No Man\'s Sky de Hello Games.\n\nIconos por Emoji &amp; Material Design.</string>
     <string name="github_url">https://github.com/giutaca/nms-guide-app</string>
 </resources>
