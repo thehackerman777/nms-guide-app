@@ -1,12 +1,12 @@
 {
   "categories": [
-    {"id": "glyphs", "title": "Glifos y Portales", "icon": "🔷", "color": "#00f0ff", "summary": "Consigue los 16 glifos y usa portales para viajar instantáneamente por la galaxia."},
-    {"id": "nanites", "title": "Nanites", "icon": "💎", "color": "#ff6b9d", "summary": "La moneda secundaria para mejoras tecnológicas. Los mejores métodos de farmeo."},
-    {"id": "quicksilver", "title": "Mercurio", "icon": "🪐", "color": "#fbbf24", "summary": "Moneda cosmética. Cómo conseguir mercurio en el Nexo."},
-    {"id": "units", "title": "Unidades", "icon": "💰", "color": "#a78bfa", "summary": "Hazte rico. Desde principios básicos hasta granjas multimillonarias."},
-    {"id": "ships", "title": "Naves y Cargueros", "icon": "🚀", "color": "#34d399", "summary": "Tipos de nave, cómo conseguir carguero gratis, naves vivas y exocraft."},
-    {"id": "survival", "title": "Supervivencia", "icon": "🛡️", "color": "#f97316", "summary": "Combate, centinelas, piratas, peligros planetarios."},
-    {"id": "bases", "title": "Bases y Construcción", "icon": "🏗️", "color": "#06b6d4", "summary": "Construye bases, recluta especialistas, automatiza recursos."},
-    {"id": "tips", "title": "Consejos y Estrategias", "icon": "🌟", "color": "#ec4899", "summary": "Tips generales, prioridades, recursos online, apps útiles."}
+    {"id": "glyphs", "title": "Glifos y Portales", "icon": "🔷", "color": "#6366F1", "summary": "Consigue los 16 glifos y usa portales para viajar instantáneamente por la galaxia."},
+    {"id": "nanites", "title": "Nanites", "icon": "💎", "color": "#6D28D9", "summary": "La moneda secundaria para mejoras tecnológicas. Los mejores métodos de farmeo."},
+    {"id": "quicksilver", "title": "Mercurio", "icon": "🪐", "color": "#7C3AED", "summary": "Moneda cosmética. Cómo conseguir mercurio en el Nexo."},
+    {"id": "units", "title": "Unidades", "icon": "💰", "color": "#4F46E5", "summary": "Hazte rico. Desde principios básicos hasta granjas multimillonarias."},
+    {"id": "ships", "title": "Naves y Cargueros", "icon": "🚀", "color": "#0D9488", "summary": "Tipos de nave, cómo conseguir carguero gratis, naves vivas y exocraft."},
+    {"id": "survival", "title": "Supervivencia", "icon": "🛡️", "color": "#9A3412", "summary": "Combate, centinelas, piratas, peligros planetarios."},
+    {"id": "bases", "title": "Bases y Construcción", "icon": "🏗️", "color": "#0E7490", "summary": "Construye bases, recluta especialistas, automatiza recursos."},
+    {"id": "tips", "title": "Consejos y Estrategias", "icon": "🌟", "color": "#475569", "summary": "Tips generales, prioridades, recursos online, apps útiles."}
   ]
 }

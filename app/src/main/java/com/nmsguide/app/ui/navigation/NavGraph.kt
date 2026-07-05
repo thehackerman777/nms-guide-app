@@ -1,9 +1,10 @@
 package com.nmsguide.app.ui.navigation
 
-import androidx.compose.animation.AnimatedContentTransitionScope
 import androidx.compose.animation.core.tween
 import androidx.compose.animation.fadeIn
 import androidx.compose.animation.fadeOut
+import androidx.compose.animation.slideInVertically
+import androidx.compose.animation.slideOutVertically
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.*
@@ -11,9 +12,9 @@ import androidx.compose.material.icons.outlined.*
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.unit.dp
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavDestination.Companion.hierarchy
 import androidx.navigation.NavGraph.Companion.findStartDestination
@@ -65,7 +66,7 @@ private val bottomNavRoutes = bottomNavItems.map { it.route }.toSet()
 
 /**
  * Navegación principal de la app.
- * Incluye NavigationBar inferior y NavHost.
+ * Incluye NavigationBar inferior y NavHost con transiciones suaves.
  */
 @Composable
 fun AppNavigation() {
@@ -95,17 +96,27 @@ fun AppNavigation() {
                 )
             }
         },
-        containerColor = NmsBackground
+        containerColor = AppBackground
     ) { innerPadding ->
         NavHost(
             navController = navController,
             startDestination = Routes.HOME,
             modifier = Modifier.padding(innerPadding),
             enterTransition = {
-                fadeIn(animationSpec = tween(300))
+                fadeIn(animationSpec = tween(300)) + slideInVertically(
+                    animationSpec = tween(300)
+                ) { it / 8 }
             },
             exitTransition = {
-                fadeOut(animationSpec = tween(300))
+                fadeOut(animationSpec = tween(250))
+            },
+            popEnterTransition = {
+                fadeIn(animationSpec = tween(250))
+            },
+            popExitTransition = {
+                fadeOut(animationSpec = tween(250)) + slideOutVertically(
+                    animationSpec = tween(250)
+                ) { it / 8 }
             }
         ) {
             // ─── HOME ─────────────────────────────────────────────────────
@@ -202,7 +213,7 @@ fun AppNavigation() {
 }
 
 /**
- * Bottom Navigation Bar con estilo NMS.
+ * Bottom Navigation Bar con estilo Material 3 sobrio.
  */
 @Composable
 private fun BottomNavBar(
@@ -210,8 +221,8 @@ private fun BottomNavBar(
     onItemClick: (String) -> Unit
 ) {
     NavigationBar(
-        containerColor = NmsSurface,
-        contentColor = NmsTextPrimary,
+        containerColor = AppSurface,
+        contentColor = AppTextPrimary,
         tonalElevation = 0.dp
     ) {
         bottomNavItems.forEach { item ->
@@ -233,11 +244,11 @@ private fun BottomNavBar(
                 selected = selected,
                 onClick = { onItemClick(item.route) },
                 colors = NavigationBarItemDefaults.colors(
-                    selectedIconColor = NmsCyan,
-                    selectedTextColor = NmsCyan,
-                    unselectedIconColor = NmsTextSecondary,
-                    unselectedTextColor = NmsTextSecondary,
-                    indicatorColor = NmsCyan.copy(alpha = 0.12f)
+                    selectedIconColor = PrimaryIndigo,
+                    selectedTextColor = PrimaryIndigo,
+                    unselectedIconColor = AppTextSecondary,
+                    unselectedTextColor = AppTextSecondary,
+                    indicatorColor = PrimaryIndigo.copy(alpha = 0.12f)
                 )
             )
         }

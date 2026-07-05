@@ -11,6 +11,8 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.geometry.Offset
+import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
@@ -20,7 +22,7 @@ import com.nmsguide.app.ui.theme.*
 
 /**
  * Card de categoría para la pantalla principal.
- * Muestra: ícono grande, título, resumen y una barra de acento de color.
+ * Diseño minimalista con gradiente sutil, sombras suaves y compacto.
  */
 @Composable
 fun GuideCard(
@@ -31,13 +33,13 @@ fun GuideCard(
     val accentColor = try {
         Color(android.graphics.Color.parseColor(category.color))
     } catch (_: Exception) {
-        NmsCyan
+        PrimaryIndigo
     }
 
     // Animación sutil al presionar
     var pressed by remember { mutableStateOf(false) }
     val elevation by animateDpAsState(
-        targetValue = if (pressed) 2.dp else 6.dp,
+        targetValue = if (pressed) 1.dp else 3.dp,
         animationSpec = tween(150),
         label = "cardElevation"
     )
@@ -45,68 +47,88 @@ fun GuideCard(
     Card(
         modifier = modifier
             .fillMaxWidth()
-            .clickable {
-                onClick()
-            },
-        shape = RoundedCornerShape(16.dp),
+            .clickable { onClick() },
+        shape = RoundedCornerShape(14.dp),
         colors = CardDefaults.cardColors(
-            containerColor = NmsSurface
+            containerColor = AppSurface
         ),
         elevation = CardDefaults.cardElevation(defaultElevation = elevation)
     ) {
-        Column(
-            modifier = Modifier.padding(0.dp)
-        ) {
-            // Barra de acento de color
+        Column {
+            // Gradiente sutil en la barra superior
             Box(
                 modifier = Modifier
                     .fillMaxWidth()
                     .height(4.dp)
-                    .background(accentColor)
+                    .background(
+                        Brush.linearGradient(
+                            colors = listOf(
+                                accentColor.copy(alpha = 0.6f),
+                                accentColor.copy(alpha = 0.2f)
+                            ),
+                            start = Offset.Zero,
+                            end = Offset(500f, 0f)
+                        )
+                    )
             )
 
             Row(
                 modifier = Modifier
                     .fillMaxWidth()
-                    .padding(16.dp),
+                    .padding(horizontal = 14.dp, vertical = 12.dp),
                 verticalAlignment = Alignment.CenterVertically,
-                horizontalArrangement = Arrangement.spacedBy(16.dp)
+                horizontalArrangement = Arrangement.spacedBy(14.dp)
             ) {
-                // Ícono
-                Text(
-                    text = category.icon,
-                    style = MaterialTheme.typography.displayMedium
-                )
+                // Ícono con fondo redondeado
+                Box(
+                    modifier = Modifier
+                        .size(44.dp)
+                        .clip(RoundedCornerShape(12.dp))
+                        .background(accentColor.copy(alpha = 0.12f)),
+                    contentAlignment = Alignment.Center
+                ) {
+                    Text(
+                        text = category.icon,
+                        style = MaterialTheme.typography.titleMedium
+                    )
+                }
 
                 Column(modifier = Modifier.weight(1f)) {
-                    // Título
                     Text(
                         text = category.title,
-                        style = MaterialTheme.typography.titleMedium,
-                        fontWeight = FontWeight.Bold,
-                        color = NmsTextPrimary,
+                        style = MaterialTheme.typography.titleSmall,
+                        fontWeight = FontWeight.SemiBold,
+                        color = AppTextPrimary,
                         maxLines = 1,
                         overflow = TextOverflow.Ellipsis
                     )
 
-                    Spacer(modifier = Modifier.height(4.dp))
+                    Spacer(modifier = Modifier.height(3.dp))
 
-                    // Resumen
                     Text(
                         text = category.summary,
                         style = MaterialTheme.typography.bodySmall,
-                        color = NmsTextSecondary,
+                        color = AppTextSecondary,
                         maxLines = 2,
                         overflow = TextOverflow.Ellipsis
                     )
                 }
 
                 // Flecha indicadora
-                Text(
-                    text = "›",
-                    style = MaterialTheme.typography.titleLarge,
-                    color = accentColor
-                )
+                Surface(
+                    shape = RoundedCornerShape(50),
+                    color = accentColor.copy(alpha = 0.1f),
+                    modifier = Modifier.size(28.dp)
+                ) {
+                    Box(contentAlignment = Alignment.Center) {
+                        Text(
+                            text = "›",
+                            style = MaterialTheme.typography.titleSmall,
+                            color = accentColor,
+                            fontWeight = FontWeight.Bold
+                        )
+                    }
+                }
             }
         }
     }

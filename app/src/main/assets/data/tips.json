@@ -291,6 +291,38 @@
           ]
         }
       ]
+    },
+    {
+      "id": "tips_update_app",
+      "title": "Cómo Actualizar NMS Guide",
+      "summary": "La app se actualiza manualmente desde GitHub. Aquí te explico cómo descargar la última versión y mantenerte al día.",
+      "order": 8,
+      "methods": [
+        {
+          "title": "Descargar la Última Versión desde GitHub",
+          "difficulty": "easy",
+          "type": "passive",
+          "speed": "fast",
+          "tags": ["actualizar", "github", "app", "versión"],
+          "steps": [
+            "Paso 1: Abre el navegador en tu dispositivo y ve a github.com (o usa el enlace directo desde la descripción de la app).",
+            "Paso 2: Busca el repositorio de NMS Guide (el nombre exacto está en la sección 'Acerca de' de la app).",
+            "Paso 3: Ve a la sección 'Releases' (Lanzamientos) del repositorio, normalmente en la barra lateral derecha.",
+            "Paso 4: Busca la release más reciente (la que tenga el número de versión más alto, ej: v2.3.0).",
+            "Paso 5: En los archivos de la release, descarga el APK correspondiente a tu dispositivo (generalmente 'app-release.apk' o similar).",
+            "Paso 6: Si estás en Android, el sistema te pedirá confirmación para instalar una app de origen desconocido. Acepta.",
+            "Paso 7: La app se actualizará automáticamente (se instala sobre la versión anterior sin perder datos).",
+            "Paso 8: Revisa las notas de la release (Release Notes) para ver qué cambios y nuevas guías incluye."
+          ],
+          "tips": [
+            "Si tienes problemas de instalación, asegúrate de tener marcada la opción 'Instalar apps de orígenes desconocidos' en Ajustes.",
+            "No pierdes datos al actualizar: la app guarda tus datos localmente y no se borran al reinstalar.",
+            "Si la app deja de funcionar tras una actualización, borra la caché en Ajustes > Apps > NMS Guide > Almacenamiento.",
+            "Puedes activar las notificaciones de GitHub para recibir alertas cuando haya una nueva versión.",
+            "Revisa la página de Releases cada par de semanas para no perderte actualizaciones importantes."
+          ]
+        }
+      ]
     }
   ]
 }

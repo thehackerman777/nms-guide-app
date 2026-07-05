@@ -14,6 +14,7 @@ import com.nmsguide.app.ui.theme.*
 
 /**
  * Badge pequeño para mostrar dificultad, tipo, velocidad o tags.
+ * Colores suaves/pastel sin neón.
  *
  * @param text Texto del badge
  * @param type Categoría visual: "difficulty", "type", "speed", "tag", "more"
@@ -28,8 +29,8 @@ fun TagBadge(
         "difficulty" -> getDifficultyColors(text)
         "type" -> getTypeColors(text)
         "speed" -> getSpeedColors(text)
-        "more" -> Pair(NmsSurfaceVariant, NmsTextSecondary)
-        else -> Pair(NmsGray700, NmsGray300) // tag genérico
+        "more" -> Pair(AppSurfaceVariant, AppTextMuted)
+        else -> Pair(Neutral700, Neutral300) // tag genérico
     }
 
     Surface(
@@ -47,35 +48,35 @@ fun TagBadge(
     }
 }
 
-/** Mapea texto de dificultad a colores */
+/** Mapea texto de dificultad a colores suaves (sin neón) */
 private fun getDifficultyColors(difficulty: String): Pair<Color, Color> {
     return when (difficulty.lowercase()) {
-        "fácil", "facil", "easy" -> Pair(DifficultyEasy.copy(alpha = 0.15f), DifficultyEasy)
-        "media", "medium" -> Pair(DifficultyMedium.copy(alpha = 0.15f), DifficultyMedium)
-        "difícil", "dificil", "hard" -> Pair(DifficultyHard.copy(alpha = 0.15f), DifficultyHard)
-        "extremo", "extreme" -> Pair(DifficultyExtreme.copy(alpha = 0.15f), DifficultyExtreme)
-        else -> Pair(NmsGray700, NmsGray300)
+        "fácil", "facil", "easy" -> Pair(DiffEasy.copy(alpha = 0.15f), DiffEasy)
+        "media", "medium" -> Pair(DiffMedium.copy(alpha = 0.15f), DiffMedium)
+        "difícil", "dificil", "hard" -> Pair(DiffHard.copy(alpha = 0.15f), DiffHard)
+        "extremo", "extreme" -> Pair(DiffExtreme.copy(alpha = 0.15f), DiffExtreme)
+        else -> Pair(Neutral700, Neutral300)
     }
 }
 
-/** Mapea tipo de método a colores */
+/** Mapea tipo de método a colores suaves */
 private fun getTypeColors(type: String): Pair<Color, Color> {
     return when (type.lowercase()) {
-        "crafting", "fabricación" -> Pair(NmsGreen.copy(alpha = 0.15f), NmsGreen)
-        "combate", "combat" -> Pair(NmsPink.copy(alpha = 0.15f), NmsPink)
-        "exploración", "exploration" -> Pair(NmsPurple.copy(alpha = 0.15f), NmsPurple)
-        "comercio", "trade" -> Pair(NmsGold.copy(alpha = 0.15f), NmsGold)
-        "construcción", "building" -> Pair(NmsOrange.copy(alpha = 0.15f), NmsOrange)
-        else -> Pair(NmsCyan.copy(alpha = 0.15f), NmsCyan)
+        "crafting", "fabricación" -> Pair(TypeCrafting.copy(alpha = 0.15f), TypeCrafting)
+        "combate", "combat" -> Pair(TypeCombat.copy(alpha = 0.15f), TypeCombat)
+        "exploración", "exploration" -> Pair(TypeExploration.copy(alpha = 0.15f), TypeExploration)
+        "comercio", "trade" -> Pair(TypeTrade.copy(alpha = 0.15f), TypeTrade)
+        "construcción", "building" -> Pair(TypeBuilding.copy(alpha = 0.15f), TypeBuilding)
+        else -> Pair(PrimaryIndigo.copy(alpha = 0.15f), PrimaryIndigo)
     }
 }
 
-/** Mapea velocidad a colores */
+/** Mapea velocidad a colores suaves */
 private fun getSpeedColors(speed: String): Pair<Color, Color> {
     return when (speed.lowercase()) {
-        "rápido", "rapido", "fast" -> Pair(NmsGreen.copy(alpha = 0.15f), NmsGreen)
-        "lento", "slow" -> Pair(NmsOrange.copy(alpha = 0.15f), NmsOrange)
-        "media", "medium" -> Pair(NmsGold.copy(alpha = 0.15f), NmsGold)
-        else -> Pair(NmsGray700, NmsGray300)
+        "rápido", "rapido", "fast" -> Pair(SpeedFast.copy(alpha = 0.15f), SpeedFast)
+        "lento", "slow" -> Pair(SpeedSlow.copy(alpha = 0.15f), SpeedSlow)
+        "media", "medium" -> Pair(SpeedMedium.copy(alpha = 0.15f), SpeedMedium)
+        else -> Pair(Neutral700, Neutral300)
     }
 }

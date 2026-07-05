@@ -8,13 +8,15 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
+import androidx.compose.ui.unit.TextUnit
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import com.nmsguide.app.data.model.Article
 import com.nmsguide.app.ui.theme.*
 
 /**
  * Card de artículo para listas de categoría.
- * Muestra: título, resumen y conteo de métodos.
+ * Tipografía mejorada, elevaciones suaves, diseño minimalista.
  */
 @Composable
 fun ArticleCard(
@@ -28,40 +30,42 @@ fun ArticleCard(
             .clickable(onClick = onClick),
         shape = RoundedCornerShape(12.dp),
         colors = CardDefaults.cardColors(
-            containerColor = NmsSurfaceVariant
+            containerColor = AppSurface
         ),
         elevation = CardDefaults.cardElevation(defaultElevation = 2.dp)
     ) {
         Column(
             modifier = Modifier.padding(16.dp)
         ) {
-            // Título
+            // Título con mejor tipografía
             Text(
                 text = article.title,
                 style = MaterialTheme.typography.titleMedium,
                 fontWeight = FontWeight.SemiBold,
-                color = NmsTextPrimary,
+                color = AppTextPrimary,
                 maxLines = 2,
-                overflow = TextOverflow.Ellipsis
+                overflow = TextOverflow.Ellipsis,
+                letterSpacing = 0.15.sp
             )
 
             // Resumen
             if (article.summary.isNotBlank()) {
-                Spacer(modifier = Modifier.height(6.dp))
+                Spacer(modifier = Modifier.height(8.dp))
                 Text(
                     text = article.summary,
                     style = MaterialTheme.typography.bodySmall,
-                    color = NmsTextSecondary,
+                    color = AppTextSecondary,
                     maxLines = 2,
-                    overflow = TextOverflow.Ellipsis
+                    overflow = TextOverflow.Ellipsis,
+                    lineHeight = 18.sp
                 )
             }
 
             // Métodos disponibles
             if (article.methods.isNotEmpty()) {
-                Spacer(modifier = Modifier.height(8.dp))
+                Spacer(modifier = Modifier.height(10.dp))
                 Row(
-                    horizontalArrangement = Arrangement.spacedBy(4.dp)
+                    horizontalArrangement = Arrangement.spacedBy(6.dp)
                 ) {
                     article.methods.take(3).forEach { method ->
                         TagBadge(

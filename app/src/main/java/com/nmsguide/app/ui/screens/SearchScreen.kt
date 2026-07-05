@@ -49,11 +49,11 @@ fun SearchScreen(
                     Text(
                         text = "Buscar",
                         style = MaterialTheme.typography.titleLarge,
-                        color = NmsTextPrimary
+                        color = AppTextPrimary
                     )
                 },
                 colors = TopAppBarDefaults.topAppBarColors(
-                    containerColor = NmsBackground
+                    containerColor = AppBackground
                 )
             )
         },
@@ -95,13 +95,19 @@ fun SearchScreen(
                 )
             } else {
                 // Resultados
-                Text(
-                    text = "${filteredArticles.size} resultado${if (filteredArticles.size != 1) "s" else ""}",
-                    style = MaterialTheme.typography.labelMedium,
-                    color = NmsTextSecondary
-                )
+                Surface(
+                    shape = androidx.compose.foundation.shape.RoundedCornerShape(8.dp),
+                    color = PrimaryIndigo.copy(alpha = 0.08f)
+                ) {
+                    Text(
+                        text = "${filteredArticles.size} resultado${if (filteredArticles.size != 1) "s" else ""}",
+                        style = MaterialTheme.typography.labelMedium,
+                        color = PrimaryIndigo,
+                        modifier = Modifier.padding(horizontal = 10.dp, vertical = 4.dp)
+                    )
+                }
 
-                Spacer(modifier = Modifier.height(8.dp))
+                Spacer(modifier = Modifier.height(10.dp))
 
                 LazyColumn(
                     verticalArrangement = Arrangement.spacedBy(10.dp)

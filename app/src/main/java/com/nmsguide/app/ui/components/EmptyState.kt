@@ -13,6 +13,7 @@ import com.nmsguide.app.ui.theme.*
 /**
  * Componente de estado vacío.
  * Muestra un ícono grande (emoji) + título + descripción opcional.
+ * Diseño simple y limpio.
  */
 @Composable
 fun EmptyState(
@@ -37,7 +38,7 @@ fun EmptyState(
         Text(
             text = title,
             style = MaterialTheme.typography.titleMedium,
-            color = NmsTextPrimary,
+            color = AppTextPrimary,
             textAlign = TextAlign.Center
         )
 
@@ -46,7 +47,7 @@ fun EmptyState(
             Text(
                 text = description,
                 style = MaterialTheme.typography.bodySmall,
-                color = NmsTextSecondary,
+                color = AppTextSecondary,
                 textAlign = TextAlign.Center
             )
         }

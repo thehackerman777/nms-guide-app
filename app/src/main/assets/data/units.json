@@ -2,6 +2,76 @@
   "categoryId": "units",
   "articles": [
     {
+      "id": "units_first_steps",
+      "title": "Primeros Pasos: Cómo Ganar tus Primeras Unidades",
+      "summary": "Guía para jugadores nuevos que empiezan con cero unidades. Aprende los métodos más rápidos y sencillos para conseguir tus primeros millones.",
+      "order": 0,
+      "methods": [
+        {
+          "title": "Mejora el Escáner y Escanea Todo",
+          "difficulty": "easy",
+          "type": "active",
+          "speed": "fast",
+          "tags": ["escáner", "principiante", "exploración", "fácil"],
+          "steps": [
+            "Paso 1: Consigue al menos 500 nanites (ver guía de Nanites) y ve a la estación espacial o Anomalía.",
+            "Paso 2: Compra 3 módulos de mejora S-Class para el Visor de Análisis en la tienda de mejoras de exotraje.",
+            "Paso 3: Instala los 3 módulos adyacentes en tu multitool para activar el bono de cercanía.",
+            "Paso 4: Escanea toda fauna y flora que encuentres: cada animal puede darte hasta 300,000 unidades.",
+            "Paso 5: Recorre un par de planetas escaneando todo. En 20 minutos tendrás tu primer millón."
+          ],
+          "tips": [
+            "Invertir en módulos S de escáner es la mejor inversión inicial del juego. Se paga sola en minutos.",
+            "Las criaturas voladoras y acuáticas suelen dar las mejores recompensas al escanearlas.",
+            "Combina con el método de huesos antiguos para maximizar tus ganancias tempranas."
+          ]
+        },
+        {
+          "title": "Excava Huesos Antiguos y Restos de Naufragio",
+          "difficulty": "easy",
+          "type": "active",
+          "speed": "medium",
+          "tags": ["huesos", "excavación", "principiante", "fósiles"],
+          "steps": [
+            "Paso 1: Escanea sistemas desde el mapa galáctico buscando planetas con 'Huesos Antiguos' o 'Restos de Naufragio'.",
+            "Paso 2: Aterriza en el planeta y usa el Visor de Análisis para localizar objetos enterrados (marcador amarillo).",
+            "Paso 3: Excava con el Manipulador de Terreno hasta llegar al objeto y recógelo.",
+            "Paso 4: Los huesos comunes (C-class) valen ~20,000 unidades. Los raros (S-class) hasta 2 millones.",
+            "Paso 5: Vende todo en el terminal de comercio de la estación espacial más cercana."
+          ],
+          "tips": [
+            "Prioriza planetas con 'Restos de Naufragio': suelen dejar más unidades que los huesos.",
+            "Lleva pilas extra de combustible para el Manipulador de Terreno. No te quedes a medio excavar.",
+            "Construye un refugio temporal cerca de zonas con muchos huesos para volver más tarde.",
+            "Usa el Exocraft Nómada con radar para encontrar objetos enterrados mucho más rápido."
+          ]
+        },
+        {
+          "title": "Cloro + Oxígeno: La Receta Infinita",
+          "difficulty": "easy",
+          "type": "active",
+          "speed": "fast",
+          "tags": ["cloro", "refinado", "químico", "principiante"],
+          "steps": [
+            "Paso 1: Consigue al menos 1 unidad de Cloro (en plantas acuáticas o cómpralo en terminales).",
+            "Paso 2: Consigue Oxígeno (cómpralo a pilotos en estaciones o refínalo de plantas).",
+            "Paso 3: Fabrica un Refinador Mediano (Medium Refiner) con los planos de la Anomalía.",
+            "Paso 4: Coloca 1 Cloro + 2 Oxígeno en el refinador. Producirás 6 Cloro (multiplicación x6).",
+            "Paso 5: Usa el Cloro resultante como insumo para el siguiente ciclo. Cada iteración multiplica tu Cloro por 6.",
+            "Paso 6: Cuando tengas stock grande (1000+), vende el Cloro en terminales de comercio a ~402 unidades cada uno.",
+            "Paso 7: Refina en lotes de 250 Cloro + 500 Oxígeno → 1500 Cloro. Repite hasta tener millones."
+          ],
+          "tips": [
+            "Compra Oxígeno a los pilotos que aterrizan en la estación: suelen vender cientos de unidades.",
+            "Busca sistemas con demanda alta de Cloro (+10-20%) para maximizar ganancias.",
+            "Usa un Refinador Grande (Large Refiner) cuando puedas: refina 3 materiales a la vez.",
+            "Este método es completamente legal en todos los sistemas, no es contrabando.",
+            "Empieza con poco Cloro (compra 10-20 en un terminal) y escala desde ahí."
+          ]
+        }
+      ]
+    },
+    {
       "id": "units_early_game",
       "title": "FASE 1: Early Game (Principios)",
       "summary": "Cómo empezar con poco dinero y convertirte en millonario desde las primeras horas de juego.",

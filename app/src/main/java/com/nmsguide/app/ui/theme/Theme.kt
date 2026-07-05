@@ -5,51 +5,57 @@ import androidx.compose.material3.darkColorScheme
 import androidx.compose.runtime.Composable
 
 /**
- * Tema oscuro NMS para Material 3.
- * Define una paleta oscura con acentos cyan, rosa y dorado.
+ * Esquema de colores oscuros Material 3 para NMS Guide.
+ * Paleta sobria y profesional: indigo + teal + ámbar tenue.
  */
 private val NmsDarkColorScheme = darkColorScheme(
-    primary = NmsCyan,
-    onPrimary = NmsBackground,
-    primaryContainer = NmsCyan.copy(alpha = 0.15f),
-    onPrimaryContainer = NmsCyan,
+    // ─── Primario: Indigo profundo ─────────────────────────────────────
+    primary = PrimaryIndigo,
+    onPrimary = OnPrimaryIndigo,
+    primaryContainer = PrimaryContainerIndigo,
+    onPrimaryContainer = PrimaryIndigo,
 
-    secondary = NmsPink,
-    onSecondary = NmsBackground,
-    secondaryContainer = NmsPink.copy(alpha = 0.15f),
-    onSecondaryContainer = NmsPink,
+    // ─── Secundario: Teal suave ────────────────────────────────────────
+    secondary = SecondaryTeal,
+    onSecondary = OnSecondaryTeal,
+    secondaryContainer = SecondaryContainerTeal,
+    onSecondaryContainer = SecondaryTeal,
 
-    tertiary = NmsGold,
-    onTertiary = NmsBackground,
-    tertiaryContainer = NmsGold.copy(alpha = 0.15f),
-    onTertiaryContainer = NmsGold,
+    // ─── Terciario: Ámbar tenue ────────────────────────────────────────
+    tertiary = TertiaryAmber,
+    onTertiary = OnTertiaryAmber,
+    tertiaryContainer = TertiaryContainerAmber,
+    onTertiaryContainer = TertiaryAmber,
 
-    background = NmsBackground,
-    onBackground = NmsTextPrimary,
+    // ─── Fondo ─────────────────────────────────────────────────────────
+    background = AppBackground,
+    onBackground = AppTextPrimary,
+    surface = AppSurface,
+    onSurface = AppTextPrimary,
+    surfaceVariant = AppSurfaceVariant,
+    onSurfaceVariant = AppTextSecondary,
 
-    surface = NmsSurface,
-    onSurface = NmsTextPrimary,
-    surfaceVariant = NmsSurfaceVariant,
-    onSurfaceVariant = NmsTextSecondary,
+    surfaceTint = PrimaryIndigo,
 
-    surfaceTint = NmsCyan,
+    // ─── Errores ───────────────────────────────────────────────────────
+    error = AppError,
+    onError = AppBackground,
+    errorContainer = AppError.copy(alpha = 0.15f),
+    onErrorContainer = AppError,
 
-    error = NmsError,
-    onError = NmsBackground,
-    errorContainer = NmsError.copy(alpha = 0.15f),
-    onErrorContainer = NmsError,
+    // ─── Bordes / outlines ─────────────────────────────────────────────
+    outline = Neutral600,
+    outlineVariant = Neutral700,
 
-    outline = NmsGray600,
-    outlineVariant = NmsGray700,
-
-    inverseSurface = NmsTextPrimary,
-    inverseOnSurface = NmsBackground,
-    inversePrimary = NmsCyan.copy(alpha = 0.8f)
+    // ─── Inversos ──────────────────────────────────────────────────────
+    inverseSurface = AppTextPrimary,
+    inverseOnSurface = AppBackground,
+    inversePrimary = PrimaryIndigo.copy(alpha = 0.8f)
 )
 
 /**
  * Tema principal de NMS Guide.
- * Envuelve toda la UI con Material 3 + paleta oscura NMS.
+ * Envuelve toda la UI con Material 3 + paleta oscura profesional.
  */
 @Composable
 fun NMSGuideTheme(

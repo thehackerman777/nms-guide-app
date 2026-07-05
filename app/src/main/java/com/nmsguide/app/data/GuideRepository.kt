@@ -27,7 +27,7 @@ class GuideRepository(private val context: Context) {
     fun loadCategoryIndex(): Flow<List<CategoryMeta>> {
         if (categoryIndexFlow.value == null) {
             try {
-                val text = context.assets.open("category_index.json")
+                val text = context.assets.open("data/categories.json")
                     .bufferedReader().use { it.readText() }
                 val index = json.decodeFromString<CategoryIndex>(text)
                 categoryIndexFlow.value = index.categories
@@ -47,7 +47,7 @@ class GuideRepository(private val context: Context) {
         categoryContentCache[categoryId] = state
 
         try {
-            val text = context.assets.open("categories/${categoryId}.json")
+            val text = context.assets.open("data/${categoryId}.json")
                 .bufferedReader().use { it.readText() }
             val content = json.decodeFromString<CategoryContent>(text)
             state.value = content
@@ -67,7 +67,7 @@ class GuideRepository(private val context: Context) {
             val index = listOfNotNull(categoryIndexFlow.value).flatten()
             if (index.isNotEmpty()) {
                 for (cat in index) {
-                    val text = context.assets.open("categories/${cat.id}.json")
+                    val text = context.assets.open("data/${cat.id}.json")
                         .bufferedReader().use { it.readText() }
                     val content = json.decodeFromString<CategoryContent>(text)
                     all.addAll(content.articles)

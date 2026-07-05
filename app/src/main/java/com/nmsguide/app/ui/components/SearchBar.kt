@@ -14,6 +14,7 @@ import com.nmsguide.app.ui.theme.*
 
 /**
  * Barra de búsqueda reutilizable con ícono de lupa y botón de limpiar.
+ * Usa colores sobrios y bordes redondeados.
  *
  * @param query Texto actual de búsqueda
  * @param onQueryChange Callback cuando el texto cambia
@@ -35,7 +36,7 @@ fun SearchBar(
         placeholder = {
             Text(
                 text = placeholder,
-                color = NmsTextMuted,
+                color = AppTextMuted,
                 style = MaterialTheme.typography.bodyMedium
             )
         },
@@ -43,7 +44,7 @@ fun SearchBar(
             Icon(
                 imageVector = Icons.Default.Search,
                 contentDescription = "Buscar",
-                tint = NmsCyan
+                tint = PrimaryIndigo
             )
         },
         trailingIcon = {
@@ -52,20 +53,20 @@ fun SearchBar(
                     Icon(
                         imageVector = Icons.Default.Close,
                         contentDescription = "Limpiar búsqueda",
-                        tint = NmsTextMuted
+                        tint = AppTextMuted
                     )
                 }
             }
         },
         shape = RoundedCornerShape(12.dp),
         colors = OutlinedTextFieldDefaults.colors(
-            focusedTextColor = NmsTextPrimary,
-            unfocusedTextColor = NmsTextPrimary,
-            cursorColor = NmsCyan,
-            focusedBorderColor = NmsCyan,
-            unfocusedBorderColor = NmsGray600,
-            focusedContainerColor = NmsSurfaceVariant,
-            unfocusedContainerColor = NmsSurfaceVariant
+            focusedTextColor = AppTextPrimary,
+            unfocusedTextColor = AppTextPrimary,
+            cursorColor = PrimaryIndigo,
+            focusedBorderColor = PrimaryIndigo,
+            unfocusedBorderColor = Neutral600,
+            focusedContainerColor = AppSurfaceVariant,
+            unfocusedContainerColor = AppSurfaceVariant
         ),
         singleLine = true
     )

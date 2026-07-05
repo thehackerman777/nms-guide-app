@@ -8,12 +8,12 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
 import com.nmsguide.app.ui.navigation.AppNavigation
+import com.nmsguide.app.ui.theme.AppBackground
 import com.nmsguide.app.ui.theme.NMSGuideTheme
-import com.nmsguide.app.ui.theme.NmsBackground
 
 /**
  * Actividad principal de NMS Guide.
- * Configura el tema oscuro, edge-to-edge y monta la navegación Compose.
+ * Configura el tema oscuro Material 3, edge-to-edge y monta la navegación Compose.
  */
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -23,7 +23,7 @@ class MainActivity : ComponentActivity() {
             NMSGuideTheme {
                 Surface(
                     modifier = Modifier.fillMaxSize(),
-                    color = NmsBackground
+                    color = AppBackground
                 ) {
                     AppNavigation()
                 }

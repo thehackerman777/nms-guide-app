@@ -2,8 +2,6 @@
 package com.nmsguide.app.ui.screens
 
 import androidx.compose.foundation.ExperimentalFoundationApi
-
-
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
@@ -40,11 +38,11 @@ fun FavoritesScreen(
                     Text(
                         text = "Favoritos",
                         style = MaterialTheme.typography.titleLarge,
-                        color = NmsTextPrimary
+                        color = AppTextPrimary
                     )
                 },
                 colors = TopAppBarDefaults.topAppBarColors(
-                    containerColor = NmsBackground
+                    containerColor = AppBackground
                 )
             )
         },

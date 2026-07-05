@@ -1,7 +1,10 @@
 package com.nmsguide.app.ui.screens
 
 import androidx.compose.animation.AnimatedVisibility
+import androidx.compose.animation.core.animateDpAsState
+import androidx.compose.animation.core.tween
 import androidx.compose.animation.fadeIn
+import androidx.compose.animation.slideInVertically
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -42,7 +45,7 @@ fun DetailScreen(
                         text = article?.title ?: "Artículo",
                         style = MaterialTheme.typography.titleMedium,
                         fontWeight = FontWeight.SemiBold,
-                        color = NmsTextPrimary,
+                        color = AppTextPrimary,
                         maxLines = 1
                     )
                 },
@@ -51,24 +54,23 @@ fun DetailScreen(
                         Icon(
                             imageVector = Icons.Default.ArrowBack,
                             contentDescription = "Volver",
-                            tint = NmsCyan
+                            tint = PrimaryIndigo
                         )
                     }
                 },
                 actions = {
-                    // Botón de favorito
                     IconButton(onClick = onToggleFavorite) {
                         Icon(
                             imageVector = if (isFavorite) Icons.Default.Favorite
                             else Icons.Default.FavoriteBorder,
                             contentDescription = if (isFavorite) "Quitar de favoritos"
                             else "Agregar a favoritos",
-                            tint = if (isFavorite) NmsPink else NmsTextSecondary
+                            tint = if (isFavorite) AppError else AppTextSecondary
                         )
                     }
                 },
                 colors = TopAppBarDefaults.topAppBarColors(
-                    containerColor = NmsBackground
+                    containerColor = AppBackground
                 )
             )
         },
@@ -84,7 +86,7 @@ fun DetailScreen(
                 Text(
                     text = "Artículo no encontrado",
                     style = MaterialTheme.typography.bodyLarge,
-                    color = NmsTextSecondary
+                    color = AppTextSecondary
                 )
             }
             return@Scaffold
@@ -97,67 +99,78 @@ fun DetailScreen(
                 .verticalScroll(rememberScrollState())
                 .padding(horizontal = 16.dp)
         ) {
-            // Resumen
+            Spacer(modifier = Modifier.height(8.dp))
+
+            // ─── Resumen como card elevada ─────────────────────────────
             if (article.summary.isNotBlank()) {
-                Spacer(modifier = Modifier.height(8.dp))
-                Surface(
+                Card(
                     shape = RoundedCornerShape(12.dp),
-                    color = NmsSurfaceVariant
+                    colors = CardDefaults.cardColors(containerColor = AppSurfaceContainer),
+                    elevation = CardDefaults.cardElevation(defaultElevation = 2.dp)
                 ) {
                     Text(
                         text = article.summary,
                         style = MaterialTheme.typography.bodyMedium,
-                        color = NmsTextSecondary,
+                        color = AppTextSecondary,
                         modifier = Modifier.padding(16.dp)
                     )
                 }
-                Spacer(modifier = Modifier.height(8.dp))
 
-                // Divisor decorativo
-                Divider(
-                    color = NmsGray700,
-                    thickness = 1.dp,
-                    modifier = Modifier.padding(vertical = 8.dp)
+                Spacer(modifier = Modifier.height(16.dp))
+
+                // Divisor sutil
+                HorizontalDivider(
+                    color = Neutral700,
+                    thickness = 1.dp
                 )
+
+                Spacer(modifier = Modifier.height(12.dp))
             }
 
-            // Indicador de cantidad de métodos
+            // ─── Indicador de cantidad de métodos ──────────────────────
             if (article.methods.isNotEmpty()) {
-                Text(
-                    text = "${article.methods.size} método${if (article.methods.size != 1) "s" else ""} disponible${if (article.methods.size != 1) "s" else ""}",
-                    style = MaterialTheme.typography.labelLarge,
-                    color = NmsCyan,
-                    fontWeight = FontWeight.Medium,
-                    modifier = Modifier.padding(bottom = 12.dp)
-                )
+                Surface(
+                    shape = RoundedCornerShape(8.dp),
+                    color = PrimaryIndigo.copy(alpha = 0.1f)
+                ) {
+                    Text(
+                        text = "${article.methods.size} método${if (article.methods.size != 1) "s" else ""} disponible${if (article.methods.size != 1) "s" else ""}",
+                        style = MaterialTheme.typography.labelMedium,
+                        fontWeight = FontWeight.Medium,
+                        color = PrimaryIndigo,
+                        modifier = Modifier.padding(horizontal = 12.dp, vertical = 6.dp)
+                    )
+                }
+
+                Spacer(modifier = Modifier.height(12.dp))
             }
 
-            // Lista de métodos
+            // ─── Lista de métodos ──────────────────────────────────────
             article.methods.forEachIndexed { index, method ->
                 MethodCard(
                     method = method,
                     index = index,
-                    modifier = Modifier.padding(bottom = 10.dp)
+                    modifier = Modifier.padding(bottom = 12.dp)
                 )
             }
 
-            // Si no hay métodos
+            // ─── Sin métodos ───────────────────────────────────────────
             if (article.methods.isEmpty()) {
-                Spacer(modifier = Modifier.height(32.dp))
-                Surface(
+                Spacer(modifier = Modifier.height(24.dp))
+                Card(
                     shape = RoundedCornerShape(12.dp),
-                    color = NmsSurfaceVariant
+                    colors = CardDefaults.cardColors(containerColor = AppSurfaceContainer),
+                    elevation = CardDefaults.cardElevation(defaultElevation = 1.dp)
                 ) {
                     Text(
                         text = "Próximamente: métodos detallados para este tema.",
                         style = MaterialTheme.typography.bodyMedium,
-                        color = NmsTextSecondary,
+                        color = AppTextSecondary,
                         modifier = Modifier.padding(16.dp)
                     )
                 }
             }
 
-            // Espacio inferior
             Spacer(modifier = Modifier.height(80.dp))
         }
     }
