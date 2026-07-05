@@ -119,7 +119,7 @@ fun DetailScreen(
                 Spacer(modifier = Modifier.height(16.dp))
 
                 // Divisor sutil
-                HorizontalDivider(
+                Divider(
                     color = Neutral700,
                     thickness = 1.dp
                 )

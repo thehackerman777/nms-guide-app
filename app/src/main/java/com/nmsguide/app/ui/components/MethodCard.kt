@@ -136,7 +136,7 @@ fun MethodCard(
                         .verticalScroll(rememberScrollState())
                 ) {
                     // Línea divisoria
-                    HorizontalDivider(
+                    Divider(
                         color = Neutral700,
                         thickness = 0.5.dp,
                         modifier = Modifier.padding(bottom = 12.dp)
