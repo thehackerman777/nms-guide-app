@@ -1,8 +1,8 @@
+@file:OptIn(androidx.compose.foundation.ExperimentalFoundationApi::class)
 package com.nmsguide.app.ui.screens
-import androidx.compose.foundation.ExperimentalFoundationApi
-import androidx.compose.ui.ExperimentalComposeUiApi
 
-@OptIn(ExperimentalFoundationApi::class)
+import androidx.compose.foundation.ExperimentalFoundationApi
+
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.fadeIn
